@@ -1,11 +1,11 @@
 <div id="header" align="center">
   
-  <img src="https://raw.githubusercontent.com/Aanishnithin07/Aanishnithin07/main/profile.png" alt="Aanish Nithin's Profile Picture" width="200" style="border-radius: 50%; object-fit: cover; margin-bottom: 15px;"/>
+  <img src="https://raw.githubusercontent.com/Aanishnithin07/Aanishnithin07/main/profile.jpg" alt="Aanish Nithin's Profile Picture" width="200" style="border-radius: 50%; object-fit: cover; margin-bottom: 15px;"/>
   
   <h1 align="center">AANISH NITHIN A</h1>
   
   <h3 align="center">
-    Building as an AI & ML Engineer • Architecting as a Full Stack Engineer • Innovating as a Human-Centric AI Architect
+    Building as an AI & ML Engineer • Architecting as a Full Stack Engineer• Innovating as a Human-Centric AI Architect
   </h3>
   
   <p align="center">
