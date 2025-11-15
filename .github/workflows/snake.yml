@@ -14,14 +14,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Generate Snake animation
+      - name: Generate Snake animation (SVG)
         uses: Platane/snk@master
-        id: snake-gif
+        id: snake-svg
         with:
           github_user_name: Aanishnithin07 # YOUR GITHUB USERNAME HERE
           outputs: |
-            ./output/github-contribution-grid-snake.svg # Path where the snake GIF will be saved
-            ./output/github-contribution-grid-snake-dark.svg?palette=github-dark # Optional: dark theme
+            ./output/github-contribution-grid-snake.svg # Path where the snake SVG will be saved
+            # If you want a dark theme alternative, uncomment the line below:
+            # ./output/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2.6.0
