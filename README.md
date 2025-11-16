@@ -36,6 +36,28 @@
 
 <br/>
 
+<!-- 3D Contribution Graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aanishnithin07&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&custom_title=📊%20Contribution%20Activity" alt="3D Contribution Graph"/>
+</div>
+
+<br/>
+
+<!-- Dynamic Metrics Cards -->
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aanishnithin07&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aanishnithin07&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF"/>
+</div>
+
+<br/>
+
+<!-- Striking Quote Banner -->
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=The%20best%20code%20is%20written%20when%20you%20understand%20not%20just%20the%20syntax,%20but%20the%20human%20using%20it.&author=Aanish%20Nithin" alt="Quote"/>
+</div>
+
+<br/>
+
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -112,6 +134,17 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+</div>
+
+<br/>
+
+<!-- Animated Skills Cloud -->
+<div align="center">
+  
+### ⚡ Quick Skills Overview
+
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nodejs,express,mongodb,postgres,mysql,tensorflow,pytorch,opencv,git,github,docker,vscode,linux,aws,c,cpp&perline=11" alt="Skills" />
 
 </div>
 
@@ -213,24 +246,38 @@
 
 <br/>
 
+## 🏅 GitHub Achievements
+
+<div align="center">
+  
+<!-- Trophy Display -->
+<img width="100%" src="https://github-profile-trophy.vercel.app/?username=Aanishnithin07&theme=algolia&no-frame=true&no-bg=false&margin-w=4&column=8" alt="Trophy"/>
+
+</div>
+
+<br/>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aanishnithin07&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Aanishnithin07&theme=react&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak"/>
-</div>
 
-<div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aanishnithin07&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
-</div>
+<!-- Detailed Stats Card -->
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aanishnithin07&theme=2077" alt="Profile Details"/>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aanishnithin07&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="Trophies"/>
-</div>
+<!-- Stats Overview -->
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Aanishnithin07&theme=2077" alt="Repos per Language"/>
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Aanishnithin07&theme=2077" alt="Most Commit Language"/>
+<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aanishnithin07&theme=2077&utcOffset=8" alt="Productive Time"/>
 
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aanishnithin07&custom_title=Contribution%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&area=true&hide_border=true" alt="Activity Graph"/>
+<!-- Streak Stats -->
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Aanishnithin07&theme=neon-dark&hide_border=true&border_radius=8&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=FFFFFF" alt="GitHub Streak"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aanishnithin07&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&border_radius=8&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&ring_color=00D9FF" alt="GitHub Stats"/>
+
 </div>
 
 <!-- Snake Animation -->
