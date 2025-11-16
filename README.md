@@ -41,6 +41,41 @@
 
 <br/>
 
+## 🏆 Achievements & Credentials
+
+<div align="center">
+
+### 📜 Published Author
+**"Neuro-Architecture in AI: Building Systems That Think Like Humans"**
+
+[![Amazon](https://img.shields.io/badge/Available_on_Amazon-FF9900?style=for-the-badge&logo=amazon&logoColor=white)](https://www.amazon.in/dp/B0FR1WS8SK/)
+
+> Exploring the intersection of cognitive science and artificial intelligence to create more intuitive, human-centric systems.
+
+### 🎓 Academic Excellence
+- 🥇 **Dual Degree**: B.Tech Computer Science + B.A. Psychology
+- 🏅 **Capstone Project**: PresenceAI - Real-time engagement analysis system
+- 📊 **Research Focus**: Human-AI Interaction, Cognitive Computing, NLP
+
+### 💡 Key Highlights
+```yaml
+Projects_Delivered: 20+
+Lines_of_Code: 100,000+
+Technologies_Mastered: 30+
+Hackathons_Participated: 5+
+Research_Papers: In Progress
+Open_Source_Contributions: Active
+```
+
+</div>
+
+<br/>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
 ## 🎯 The Strategic Advantage
 
 <div align="center">
@@ -112,6 +147,31 @@
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### ☁️ Cloud & Deployment
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+</div>
+
+<br/>
+
+## 📈 Expertise Level
+
+<div align="center">
+
+```text
+AI/ML Engineering    ████████████████████░   95%
+Full-Stack Dev       ███████████████████░░   90%
+Python Programming   ████████████████████░   95%
+React & Frontend     ██████████████████░░░   85%
+System Architecture  ███████████████████░░   90%
+Data Structures      ████████████████████░   95%
+Cloud & DevOps       ████████████████░░░░░   75%
+Psychology/UX        ███████████████████░░   88%
+```
 
 </div>
 
@@ -216,21 +276,30 @@
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aanishnithin07&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF" alt="GitHub Stats"/>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Aanishnithin07&theme=react&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak"/>
-</div>
+  
+### 📈 Performance Metrics
+  
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aanishnithin07&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&rank_icon=github" alt="GitHub Stats"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Aanishnithin07&theme=react&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" alt="GitHub Streak"/>
 
-<div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aanishnithin07&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=8" alt="Top Languages"/>
-</div>
+### 💻 Code Distribution
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Aanishnithin07&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="Trophies"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aanishnithin07&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF&langs_count=10&hide=jupyter%20notebook" alt="Top Languages"/>
+<img width="49%" src="https://github-contributor-stats.vercel.app/api?username=Aanishnithin07&limit=5&theme=react&combine_all_yearly_contributions=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" alt="Contribution Stats"/>
+
+### 🏆 GitHub Achievements
+
+<img src="https://github-profile-trophy.vercel.app/?username=Aanishnithin07&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" alt="Trophies"/>
+
+### 📉 Detailed Metrics
+
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aanishnithin07&theme=github_dark" alt="Profile Summary"/>
+
 </div>
 
 <!-- Activity Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aanishnithin07&custom_title=Contribution%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&area=true&hide_border=true" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aanishnithin07&custom_title=📊%20Contribution%20Activity%20Graph&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area_color=00D9FF&area=true&hide_border=true" alt="Activity Graph"/>
 </div>
 
 <!-- Snake Animation -->
@@ -253,9 +322,39 @@ const aanish = {
   learning: ["Deep Reinforcement Learning", "System Design at Scale", "Cognitive Architecture"],
   building: ["Next-Gen AI Tools", "Developer Experience Platforms", "Behavioral Analytics"],
   askMeAbout: ["AI/ML", "Full-Stack Development", "Psychology in Tech", "System Design"],
-  funFact: "I use psychology principles to debug not just code, but team dynamics! 🧠"
+  funFact: "I use psychology principles to debug not just code, but team dynamics! 🧠",
+  availability: "Open to collaborations, freelance projects, and innovative opportunities"
 };
 ```
+
+<br/>
+
+<!-- Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<br/>
+
+## 🔥 Recent Coding Activity
+
+<div align="center">
+
+<!--START_SECTION:waka-->
+
+[![Aanish's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Aanishnithin07&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF)](https://wakatime.com/@Aanishnithin07)
+
+<!--END_SECTION:waka-->
+
+### 🕒 Coding Schedule
+```text
+🌅 Morning     ██████░░░░░░░░░░░░░░░   25%
+🌞 Daytime     ████████████░░░░░░░░░   50%
+🌆 Evening     ██████████░░░░░░░░░░░   40%
+🌙 Night       ████████░░░░░░░░░░░░░   35%
+```
+
+**I'm a Night Owl 🦉 - Most productive during evening hours!**
+
+</div>
 
 <br/>
 
