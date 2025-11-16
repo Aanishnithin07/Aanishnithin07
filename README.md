@@ -144,7 +144,7 @@
   
 ### ⚡ Quick Skills Overview
 
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,react,nodejs,express,mongodb,postgres,mysql,tensorflow,pytorch,opencv,git,github,docker,vscode,linux,aws,c,cpp&perline=11" alt="Skills" />
+<img src="https://skillicons.dev/icons?i=python,java,js,react,nodejs,express,mongodb,mysql,tensorflow,opencv,git,github,docker,vscode,linux,c,cpp&perline=9" alt="Skills" />
 
 </div>
 
