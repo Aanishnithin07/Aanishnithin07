@@ -312,7 +312,7 @@ Whether you want to discuss AI, full-stack development, the intersection of psyc
   <img src="https://img.shields.io/badge/Email-Drop_a_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 
-### ⭐ If you like what you see, consider starring some repos!
+### ⭐ If you like what you see, consider starring some repos!!
 
 </div>
 
