@@ -8,8 +8,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Building+as+an+AI+%26+ML+Engineer+%F0%9F%A4%96;Architecting+as+a+Full+Stack+Engineer+%F0%9F%9A%80;Innovating+as+a+Human-Centric+AI+Architect+%F0%9F%A7%A0;CS+%2B+Psychology+%3D+Strategic+Advantage+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
-<!-- Profile Image with Glow Effect -->
-<img src="https://raw.githubusercontent.com/Aanishnithin07/Aanishnithin07/main/profile.jpg" alt="Profile" width="180" style="border-radius: 50%; border: 4px solid #00D9FF; box-shadow: 0 0 30px #00D9FF;"/>
 
 <!-- Animated Social Badges -->
 <p align="center">
@@ -18,9 +16,6 @@
   </a>
   <a href="https://www.linkedin.com/in/aanish-nithin-a-69b723270" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://www.amazon.in/dp/B0FR1WS8SK/" target="_blank">
-    <img src="https://img.shields.io/badge/📚_Amazon_Author-FF9900?style=for-the-badge&logoColor=black" alt="Amazon"/>
   </a>
   <a href="mailto:aanishnithin07@gmail.com">
     <img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
