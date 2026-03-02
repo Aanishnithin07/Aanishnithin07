@@ -45,34 +45,6 @@
 
 <br/>
 
-<!-- Striking Quote Banner -->
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=The%20best%20code%20is%20written%20when%20you%20understand%20not%20just%20the%20syntax,%20but%20the%20human%20using%20it.&author=Aanish%20Nithin" alt="Quote"/>
-</div>
-
-<br/>
-
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 🎯 The Strategic Advantage
-
-<div align="center">
-
-
-</div>
-
-> 💡 **Philosophy**: The best technology isn't built in isolation—it's architected with a deep understanding of human cognition, behavior, and needs. I don't just write code; I engineer **intelligent, empathetic systems** that solve real human problems at scale.
-
-**🧠 The Intersection of Mind & Machine**
-- 🔬 **Psychology Foundation**: Understanding user behavior, cognitive load, decision-making
-- 💻 **Engineering Execution**: Translating insights into scalable, production-ready solutions
-- 🎨 **Human-Centric Design**: Building interfaces that feel intuitive, not instructive
-- 🤖 **AI with Empathy**: Creating intelligent systems that understand context and nuance
-
-<br/>
 
 <!-- Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
@@ -99,7 +71,7 @@
 
 <br/>
 
-## 🚀 Featured Projects & Architectures
+##  Featured Projects & Architectures
 
 <div align="center">
 
