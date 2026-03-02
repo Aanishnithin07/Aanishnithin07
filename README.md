@@ -5,9 +5,8 @@
 
 <!-- Dynamic Typing Animation -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Building+as+an+AI+%26+ML+Engineer+%F0%9F%A4%96;Architecting+as+a+Full+Stack+Engineer+%F0%9F%9A%80;Innovating+as+a+Human-Centric+AI+Architect+%F0%9F%A7%A0;CS+%2B+Psychology+%3D+Strategic+Advantage+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Hi+I+am+Aanish+%F0%9F%91%8B;Welcome+to+My+Profile+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
-
 
 <!-- Animated Social Badges -->
 <p align="center">
