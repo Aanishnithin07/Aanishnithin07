@@ -166,7 +166,7 @@
 
 
 
-## 📊 GitHub Analytics
+## GitHub Analytics
 
 <div align="center">
 
