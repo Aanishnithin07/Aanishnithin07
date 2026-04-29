@@ -199,7 +199,7 @@ const aanish = {
   learning: ["Deep Reinforcement Learning", "System Design at Scale", "Cognitive Architecture"],
   building: ["Next-Gen AI Tools", "Developer Experience Platforms", "Behavioral Analytics"],
   askMeAbout: ["AI/ML", "Full-Stack Development", "Psychology in Tech", "System Design"],
-  funFact: "I use psychology principles to debug not just code, but team dynamics! 🧠"
+  funFact: "I use psychology principles to debug not just code, but team dynamics!! 🧠"
 };
 ```
 
