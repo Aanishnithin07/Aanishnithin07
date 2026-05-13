@@ -141,7 +141,7 @@
 
 **Tech**: `Full-Stack JS` `AI/ML` `Product Design`
 
-**Impact**: 🐕 10K+ active users, 95% satisfaction rate
+**Impact**:95% satisfaction rate
 
 </td>
 </tr>
