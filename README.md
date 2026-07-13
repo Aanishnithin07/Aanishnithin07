@@ -233,6 +233,62 @@ Whether you want to discuss AI, full-stack development, the intersection of psyc
 </div>
 
 <br/>
+^                                                                                                  ^
+^                                         ..:::::::::^:..                                          ^
+^                                     :~7J5PPGGGGPGGGGGP5J?7~^:..                                  ^
+^                                 ^?JYGB##BBBBBBBBBBBBBBBBBBBGPJ7~.                                ^
+^                              .~5BB########B#BBBBBBBBBBBBBGBBBBG5~.                               ^
+^                             .Y##BB#####&###BB#######&&&&&######GJ:                               ^
+^                            .JBBBB#######&#####&&&&&&&&&&&&&####GJ~.                              ^
+^                            7BBB######B######&&&&####&&&&&&&&###B5?~..                            ^
+^                           .PBB######BGPP5555PPP5YYY5PBB#########BG5!.                            ^
+^                           ^BBB####BBP5J?777777!!~~~~!7J5PGGB#######?.                            ^
+^                           :BB####BP5J?77!!!!~~~~~~~~~!!7?J5GBBBB###7                             ^
+^                           .P####BPYJ?77!!~~~~~~~~~~~~!!!!7J5GGBB##P:                             ^
+^                            Y#BBGPYJ?7777!!~~~~~~~~~~!!!!!7?J5PPGBB~                              ^
+^                            !BGPYJJJJ?7!!!~~~~~~~^~~~~!!777777?5PGY                               ^
+^                            :GPJJJYYYYYYYJ?!~~~~~~7?JJJ????????YGB!                               ^
+^                             YGJJJJ????JJJJ?7!!!!77?JJJ?777????YBP.                               ^
+^                            .!PJJ??J5JPGP7??77!!!7?J7JGGYYY777?JGJ~:                              ^
+^                           !YJY??77?J??J7!!777!!!777!7?77??7!!7?Y?JJ.                             ^
+^                           ?Y?J?77!!!!!~~!!!!!!!77!!!!~~~~~!!!7?J7??.                             ^
+^                           ^J???77!!!~~~!!!7!!~~!!77!~~~~~~~~!7??7?^                              ^
+^                            ?JJ?77!!!~~~!!77?7!!?J77!~~~~~~~~!7????.                              ^
+^                            7JJ??7!!!!!!!!7?J?????7!!~~~~~~~!!7???7.                              ^
+^                            !J???77!!!!77???J?7??J??77!!!!!!!7????~                               ^
+^                            .!777?77!!7JYJJJJ?????JJJ??7!!!!777^~^                                ^
+^                              . .7?7777J????77!!!!7777777777?7:                                   ^
+^                                 .~????7777777777777!!777???!.                                    ^
+^                                   :?J??7!!!!!~~~~!!!!77?JJJ:                                     ^
+^                                    7JJJ??777!!!!7!777????J?.                                     ^
+^                                    !JJ?????JJJJJJJ????777??!.                                    ^
+^                                   ~!J???????7777777777777?7JP~                                   ^
+^                                 :Y7:7J???7777!!7777777777J~:GBY^                                 ^
+^                             .:^?G#!..:!7?777777777777!77?~ .5BBBY!:.                             ^
+^                       .:~7YPBBB#BBJ..  :!??77777!!77777~.  .YBBBBBGP5?!~:.                       ^
+^                  .:!?5GB#####B##BBP^...  :7??7777777?!:    .5BBBBBBBB#BBGPPYJ7~:.                ^
+^             .:~7YPB###BBBBBBBBBBBBBY....   :7J?????!:   .  ^GBBBBBBBBBBBBBBBBBBGP55J7~^:         ^
+^        .:^7YPGB##BBBBBBBBBBBBBBBBBBB?.....   :!Y57.     .  ?BGBBBBBBBBBBBBBBBBBBBBBBBBBGPJ7!^.   ^
+^   .:~?5GGB##BBBBBBBBBBBBBBBBBBBBBBBBG!.....  :~?J7:   . . .5BGBBBBBBBBBBBBBBBBBBBBBBBBBBB##BBG5J!7
+~:7YPBB##BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBP^.....~Y55YJYJ^     ~GGGBBBBBBBBBBGBBBBBBBBBBBBBBBBBBBBBB#B#
+BB##BBBBBBBBBBBBBBBBBBBBGBBBBBBBBBGBBBBB7....^~:~?YJJPP!.  .5BBBBBBBBBBGGGGGBBBBBBBBBBBBBBBBBBBBBBB#
+#BBBBBBBBBBBBBBBBGGGGGGGGGGBBBGGGGGGBBBB5:...:^::^55YPJ7^: :5JJ5PG5BBBGBBBGGGGGGBBBGGGGGGGGGBBBBBBB#
+#BBBBBBBBBBBBBBBGGGGGGGGGGGBGGGGGGGGBBBBB7:.  ...:55Y5~: :..7~:^!77J5BGGBBGGGGGGGGGGGGGPGGGGGGGGBBB#
+BBBBBBBBBBGGGGGGGGGGGGGGGGGGBGGGGGGGGBBBBJ^:  . .~PJYG!. .:.~~:~~^~!7JBGBGGGGGGGGGGGGGGPPPGGGGGGGBBB
+#BBBBBBBBGGGGGGGGGGGGGGGGGGGBBGGGGGGGGBBBG7~  . .75J5G5: ..^~~5J~J^7??BBBGGGGGGGGGGGGGGPPPPGGGGGGBBB
+#BBBBBBGGGGGGGGGGGGGGGGGGGGGGBGGGGGGGGBBBBY7. . ^5YJY55! . 7GGBJYG7~7GGBGGGGGGGGGPPPGGGPPPPPPGGGBBBB
+#BBBBBGGGGGGGGGGGPPPPGGGGGGGGGGGGGGGGGBBBBGJ^  .YPJJ?JJJ...?BBGBBBBGBGGBGGGGGGGGPPPGGGPPPPPPPGGBBGBB
+#BBBGBBGGGGGGGGPPPPPPPPPPGGGGGGGGGGGGGBBBBBP~  7G5JYJJYY~^^PBBBBGGGGGGGGGGGGGGGPPPGGGPPPPPPPPPGBGBBB
+#BBBBGBBGGGGGGGPPPPPPPPPPPPPPGGGGPGGGGGGGGGG7 :5PJJYYYYY?7?GBGGGGGGGGGGGGGGGGGPPPGGGPPPPPPPPPGBBGBBB
+#BBBBGBBGGGGGGGPPPPPPPPPPPPPPPPGGGGGGGGGGGGBJ ~55JJYYYJYJ?5BGGGGGGGGGGGGGGGGGPPPGGGGPPPPPPPPGBBGGGBB
+#BBBBBGBBGGGGGPPPPPPPPPPPPPPPPPGGGGGGGGGGGGGP:?5JJYYYJYYYYGBGGGGGGGGGGGGGGGGPPPGGGGGPPPPPPPGBBGGGGBB
+#BBBBBGGBBGGGGGGGPPPPPPPPPPPPPPGGGGGGGGGGGGGG?YJJYYJJJJJYPGGGGGGGGGGGGGGGGGPPPGGGGGGPPPPPPGB#GGGGGGB
+#BBBBBBGBBBGGGGGGPPPPPPPPPPPPPPGGGGGGGGGGGGGGGPYYYJJJJJJYBGGGGGGGGGGBGGGGGPPPPGGGGGGPPPPPGGBBGGGGGGB
+#BBBBGGGGBBBGGGGGGGGPPPPPPPPPPGGGGGBGGGGGGGGGGG5YYJ????JYBGGGGGGGGGGGGGGPPPPPGGGGGGGPPPPPGB#GGGGGGGB
+#BBBBGGGGG#BBBBBGGGGPPPPPPPPPPGGGPPGGGGGGGGGGGGGJJ???JJJ5GGGGGGGGGGGGPPPPPPPGGGGGGGGGPPPGGB#GGGGGGGB
+#BBBBBGGGGB#BBBBBGGGGPPPPPPPPPPPPPPPGBGGGGGGGGGBYJJJJJYYGGGGGGGGGPGGGPPPPPPGGGGGGGGGGGGGGGBBGGGGGGGB
+#BBBBBBGGGB##BBBBBBGGGGPPPPPPPPPPPPPPGGGGGGGGGGGGJJJJYY5GGGGGGGGPGGPPPPPGGGGGGGBBBGGGGGGGG#BGGGGGGB#
+#BBBBBBBGGB####BBBBBBGGGGGGGGGGGGGGGGGBBGGGGGGGGB5YY555PGGGGGGGGGGGGGGGGGGGGGGGBBBBGGGGGBB#BGGGGGBB#
 
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
