@@ -9,8 +9,8 @@
 // everywhere GitHub shows them.
 //
 //   masthead-{light,dark}.svg   the nameplate: folio line, name, deck, degrees, language spectrum
-//   clock-{light,dark}.svg      Fig. 1 — a 24-hour dial of when the commits happen (IST)
-//   year-{light,dark}.svg       Fig. 2 — the last 365 days of contributions as one continuous trace
+//   halftone-{light,dark}.svg   Fig. 1 — the contribution calendar printed as a halftone, inked by a passing press
+//   clock-{light,dark}.svg      Fig. 2 — a 24-hour dial of when the commits happen (IST)
 //   rule-*-{light,dark}.svg     section rules with a small-caps label
 //   foot-{light,dark}.svg       the colophon
 
@@ -151,12 +151,19 @@ function masthead(name) {
   const deckLines = balancedWrap(DECK, deckOpts, deckMax);
   const deckLead = 32, deckTop = nameBase + 50;
   deckLines.forEach((ln, i) => d.text(0, deckTop + i * deckLead, ln, deckOpts));
-  const edu = (P.education || []).slice(0, 2).flatMap((e) => {
+  // one group per degree (degree, detail, institution), with a little air between the groups
+  const eduGroups = (P.education || []).slice(0, 2).map((e) => {
+    if (typeof e !== 'string') return [e.degree, e.detail, e.institution].filter(Boolean);
     const [degree, ...rest] = e.split(','); const inst = rest.join(',').replace(/\([^)]*\)/g, '').trim();
     return inst ? [degree.trim(), inst] : [degree.trim()];
   });
-  edu.forEach((ln, i) => d.text(W, deckTop + i * (deckLead / 2), truncate(upper(ln), FILE.mono, 11, stampW, { letterSpacingEm: TRACK }), { ...mono, align: 'end' }));
-  let y = Math.max(deckTop + (deckLines.length - 1) * deckLead, deckTop + (edu.length - 1) * (deckLead / 2));
+  const edu = eduGroups.flat();
+  let ey = deckTop;
+  eduGroups.forEach((g, gi) => {
+    if (gi) ey += 7;
+    for (const ln of g) { d.text(W, ey, truncate(upper(ln), FILE.mono, 11, stampW, { letterSpacingEm: TRACK }), { ...mono, align: 'end' }); ey += deckLead / 2; }
+  });
+  let y = Math.max(deckTop + (deckLines.length - 1) * deckLead, ey - deckLead / 2);
 
   // Oxford rule, then the language spectrum: one broken hairline, proportional by bytes
   const oxY = y + 28;
@@ -188,7 +195,7 @@ function masthead(name) {
   return svg(H, alt, d.parts.join(''));
 }
 
-// ================================================================== Fig. 1 — the dial
+// ================================================================== Fig. 2 — the dial
 function dial(d, cx, cy, T) {
   const max = Math.max(1, ...byHour);
   const R_TRACK = 112, R0 = 50, LMAX = 56, R_NUM = 126, BAR_W = 6;
@@ -261,7 +268,7 @@ function clock(name) {
 
   const x = 372, colW = W - x;
   let y = 46;
-  d.text(x, y, 'FIG. 1', { font: 'mono', size: 10.5, fill: T.dim, track: 0.12 });
+  d.text(x, y, 'FIG. 2', { font: 'mono', size: 10.5, fill: T.dim, track: 0.12 });
   y += 36;
   d.text(x - 1, y, 'When I commit', { size: 28 });
   y += 30;
@@ -279,59 +286,69 @@ function clock(name) {
     `.bar{stroke-dasharray:1 1;animation:grow .4s cubic-bezier(.2,.7,.2,1) both}` +
     `@keyframes grow{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}` +
     `@media (prefers-reduced-motion:reduce){.hand,.bar{animation:none}}`;
-  const alt = `Figure 1, when I commit: ${caption} ${weekLine}`;
+  const alt = `Figure 2, when I commit: ${caption} ${weekLine}`;
   return svg(H, alt, d.parts.join(''), { css: anim });
 }
 
-// ================================================================== Fig. 2 — a year as one trace
-function year(name) {
+// ================================================================== Fig. 1 — a year in halftone
+// The contribution calendar, printed the way a newspaper prints a photograph: one ink dot per day,
+// Monday at the top and a week to a column, the dot's area growing with the square root of the count.
+// On load a press rule sweeps once across the plate, inking each column as it passes, and comes to
+// rest beside today. Its resting place is an attribute, so the figure is complete even where CSS never runs.
+function halftone(name) {
   const T = THEME[name]; const d = doc(T);
   const mono = { font: 'mono', size: 11, fill: T.dim, track: TRACK };
-  const PLOT_TOP = 114, PLOT_H = 118, BASE = PLOT_TOP + PLOT_H, TICK = 5, H = BASE + 1 + TICK + 13 + 10;
-  const PW = W - 4; // the pen dot needs a little room at the right edge
-  const by = BASE + 0.5, scale = PLOT_H / Math.max(1, Math.sqrt(peak)); // square-root scale: a record day must not flatten the rest of the year
+  const lead = (dateUTC(days[0].date).getUTCDay() + 6) % 7; // Monday-first row of the first day
+  const cols = Math.ceil((days.length + lead) / 7);
+  const GUT = 24, RAIL = 12, PRESS = 2.2;                    // weekday initials at left, room for the press at right; sweep seconds
+  const pitch = (W - GUT - RAIL) / cols, rMax = pitch * 0.48;
+  const radius = (c) => rMax * Math.sqrt(Math.sqrt(c / Math.max(1, peak))); // area ∝ √count
 
   let y = 22;
-  d.text(0, y, 'FIG. 2', { font: 'mono', size: 10.5, fill: T.dim, track: 0.12 });
+  d.text(0, y, 'FIG. 1', { font: 'mono', size: 10.5, fill: T.dim, track: 0.12 });
   d.text(W, y, upper(`${days.length} days to ${longDate(days[days.length - 1].date)}`), { ...mono, align: 'end' });
-  y += 32;
-  const streaks = `Longest streak ${C.longestStreak} days` + (C.currentStreak >= 3 ? `; current streak ${C.currentStreak}` : '');
-  const caption = `Contributions per day (n = ${thousands(sum(counts))}), active on ${activeDays} of ${days.length} days. ${streaks}` +
-    (peak > 0 ? `; the peak is ${peak} on ${dayMonth(days[peakIdx].date)}.` : '.') + ' Square-root scale.';
+  y += 38;
+  d.text(-1, y, 'A year in halftone', { size: 28 });
+  y += 30;
+  const streaks = `Longest streak ${C.longestStreak} days` + (C.currentStreak >= 3 ? `, current ${C.currentStreak}` : '');
+  const caption = `Each dot is a day, inked by its contributions: ${thousands(sum(counts))} in all, on ${activeDays} of ${days.length} days. ${streaks}` +
+    (peak > 0 ? `; the busiest day was ${dayMonth(days[peakIdx].date)}, with ${peak}.` : '.') + ' Dot area on a square-root scale; the rule marks today.';
   const capOpts = { size: 15.5, italic: true };
   for (const ln of balancedWrap(caption, capOpts, W)) { d.text(0, y, ln, capOpts); y += 23; }
 
-  const pts = counts.map((c, i) => ({ x: (i * PW) / (counts.length - 1), y: by - Math.sqrt(c) * scale }));
-  let path = `M${r2(pts[0].x)} ${r2(pts[0].y)}`, length = 0;
-  for (let i = 1; i < pts.length; i++) { path += `L${r2(pts[i].x)} ${r2(pts[i].y)}`; length += Math.hypot(pts[i].x - pts[i - 1].x, pts[i].y - pts[i - 1].y); }
-  const dash = Math.ceil(length * 1.02 + 12);
-  const area = `${path}L${r2(pts[pts.length - 1].x)} ${r2(by)}L${r2(pts[0].x)} ${r2(by)}Z`;
-
-  d.rule(BASE);
-  days.forEach((day, i) => { // a tick and a label on the first of each month inside the window
-    if (dateUTC(day.date).getUTCDate() !== 1) return;
-    const x = Math.round(pts[i].x);
-    d.rule(BASE + 1, { x0: x, x1: x + 1, h: TICK });
-    const lab = upper(MONTHS[dateUTC(day.date).getUTCMonth()].slice(0, 3));
-    if (x + 5 + measure(lab, mono) <= W) d.text(x + 5, BASE + 1 + TICK + 13, lab, mono);
+  const monthY = y + 12, top = monthY + 10;
+  const px = (col) => GUT + (col + 0.5) * pitch, py = (row) => top + (row + 0.5) * pitch;
+  ['M', 'W', 'F'].forEach((s, k) => d.text(0, py(2 * k) + 3.4, s, { font: 'mono', size: 9.5, fill: T.dim }));
+  let labelEnd = -Infinity;
+  days.forEach((day, i) => { // month initials over the column that holds the 1st
+    const dt = dateUTC(day.date); if (dt.getUTCDate() !== 1) return;
+    const x = GUT + Math.floor((i + lead) / 7) * pitch, lab = upper(MONTHS[dt.getUTCMonth()].slice(0, 3)), lw = measure(lab, mono);
+    if (x < labelEnd + 8 || x + lw > W) return;
+    d.text(x, monthY, lab, mono); labelEnd = x + lw;
   });
-  d.raw(`<path class="wash late" d="${area}" fill="${T.ink}" fill-opacity="${T.wash}"/>`);
-  d.raw(`<path class="trace" d="${path}" fill="none" stroke="${T.ink}" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>`);
-  const last = pts[pts.length - 1];
-  d.raw(`<circle class="late" cx="${r2(last.x)}" cy="${r2(last.y)}" r="3" fill="${T.accent}"/>`);
-  if (peak > 0) { // the busiest day, annotated above its tip and kept inside the canvas
-    const lab = upper(`${peak} · ${dayMonth(days[peakIdx].date)}`);
-    const lw = measure(lab, mono);
-    d.text(Math.min(Math.max(pts[peakIdx].x - lw / 2, 0), W - lw), PLOT_TOP - 9, lab, mono);
-  }
+
+  // the plate: every day keeps a hairline dot of paper texture; inked days print over it, a column at a time
+  const restX = GUT + cols * pitch + RAIL / 2, startX = GUT - 8, dist = restX - startX;
+  const columns = Array.from({ length: cols }, () => []);
+  days.forEach((day, i) => { const k = i + lead; columns[Math.floor(k / 7)].push({ row: k % 7, c: day.count }); });
+  columns.forEach((list, col) => {
+    const x = r2(px(col));
+    for (const { row } of list) d.raw(`<circle cx="${x}" cy="${r2(py(row))}" r="0.9" fill="${T.rule}"/>`);
+    const inked = list.filter((e) => e.c > 0); if (!inked.length) return;
+    d.raw(`<g style="animation-delay:${r2((PRESS * (px(col) - startX)) / dist)}s">` +
+      inked.map(({ row, c }) => `<circle class="ink" cx="${x}" cy="${r2(py(row))}" r="${r2(radius(c))}" fill="${T.ink}"/>`).join('') + '</g>');
+  });
+  d.raw(`<rect class="press" x="${r2(restX - 0.75)}" y="${r2(top - 8)}" width="1.5" height="${r2(7 * pitch + 16)}" fill="${T.accent}"/>`);
+  const H = Math.ceil(top + 7 * pitch + 24); // air before the text that follows, like the masthead's closing rule
 
   const anim =
-    `.trace{stroke-dasharray:${dash};stroke-dashoffset:0;animation:draw 1.1s cubic-bezier(.35,0,.15,1) .05s both}` +
-    `@keyframes draw{from{stroke-dashoffset:${dash}}to{stroke-dashoffset:0}}` +
-    `.late{animation:fade .35s ease-out 1s both}@keyframes fade{from{opacity:0}to{opacity:1}}` +
-    `@media (prefers-reduced-motion:reduce){.trace,.late{animation:none}}`;
-  const alt = `Figure 2, a year as one trace: ${caption}`;
-  return svg(H, alt, d.parts.join(''), { css: anim, faces: ['italic', 'mono'] });
+    `.press{animation:press ${PRESS}s linear both}` +
+    `@keyframes press{from{transform:translateX(-${r2(dist)}px)}to{transform:translateX(0)}}` +
+    `.ink{transform-box:fill-box;transform-origin:center;animation:ink .5s cubic-bezier(.2,.8,.3,1.3) both;animation-delay:inherit}` +
+    `@keyframes ink{from{transform:scale(0)}to{transform:scale(1)}}` +
+    `@media (prefers-reduced-motion:reduce){.press,.ink{animation:none}}`;
+  const alt = `Figure 1, a year in halftone: ${caption}`;
+  return svg(H, alt, d.parts.join(''), { css: anim });
 }
 
 // ================================================================== section rules and the colophon
@@ -356,10 +373,11 @@ function foot(name) {
 for (const name of ['light', 'dark']) {
   const files = {
     [`masthead-${name}.svg`]: masthead(name),
+    [`halftone-${name}.svg`]: halftone(name),
     [`clock-${name}.svg`]: clock(name),
-    [`year-${name}.svg`]: year(name),
     [`rule-work-${name}.svg`]: sectionRule(name, 'Selected work'),
     [`rule-print-${name}.svg`]: sectionRule(name, 'In print'),
+    [`rule-cert-${name}.svg`]: sectionRule(name, 'Certified'),
     [`foot-${name}.svg`]: foot(name),
   };
   for (const [file, body] of Object.entries(files)) {

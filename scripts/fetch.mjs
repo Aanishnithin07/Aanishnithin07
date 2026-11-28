@@ -18,8 +18,8 @@ const STATIC = {
   email: 'aanishnithin07@gmail.com',
   timezone: 'Asia/Kolkata (UTC+05:30)',
   education: [
-    'B.Tech Computer Science & Engineering, SRM Institute of Science & Technology (CGPA 9.45)',
-    'BA (Hons) Psychology, IGNOU',
+    { degree: 'B.Tech Computer Science & Engineering', detail: 'Honours in GPU-Accelerated HPC', institution: 'SRM Institute of Science & Technology', note: 'CGPA 9.45' },
+    { degree: 'BA Psychology', institution: 'IGNOU' },
   ],
   book: {
     title: 'Inside HR: The Unspoken Rules of Recruitment and Career Growth',

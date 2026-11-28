@@ -5,12 +5,14 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/clock-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/clock-light.svg">
-  <img alt="Figure 1, when I commit: a 24-hour dial of public commits by hour of the day in Indian Standard Time, with the silent hours left empty and a hand resting on the peak hour." src="assets/clock-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/halftone-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/halftone-light.svg">
+  <img alt="Figure 1, a year in halftone: the last 365 days of contributions printed as a calendar of ink dots, Monday at the top and a week to a column, each dot's area growing with that day's contributions; a press rule sweeps across and comes to rest beside today." src="assets/halftone-light.svg" width="100%">
 </picture>
 
-I'm reading for two degrees at once: computer science at SRM Institute of Science and Technology in Chennai, and psychology at IGNOU. Most of what I build sits where they meet — software about hiring, interviews, attention and habits — and I like tools that run in the browser, do one thing, and keep their data to themselves. The figures on this page are measured from my own public activity and redrawn every morning.
+I'm reading for two degrees at once: computer science at SRM Institute of Science and Technology in Chennai, with honours in GPU-accelerated high-performance computing, and psychology at IGNOU. Most of what I build sits where they meet — software about hiring, interviews, attention and habits — and I like tools that run in the browser, do one thing, and keep their data to themselves. The figures on this page are measured from my own public activity and redrawn every morning.
+
+[Portfolio](https://portfolio-masterpiece.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/aanishnithin07) · [X](https://x.com/aanishnithin) · [aanishnithin07@gmail.com](mailto:aanishnithin07@gmail.com)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/rule-work-dark.svg">
@@ -43,12 +45,18 @@ Also [rage-auth-ui](https://github.com/Aanishnithin07/rage-auth-ui), a zero-trus
 *Inside HR: The Unspoken Rules of Recruitment and Career Growth* — self-published in 2025; I wrote, illustrated and edited it. [Amazon](https://www.amazon.in/dp/B0FR1WS8SK)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/year-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/year-light.svg">
-  <img alt="Figure 2, a year as one trace: the last 365 days of contributions drawn as one continuous line on a square-root scale, with the busiest day annotated and a dot on today." src="assets/year-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rule-cert-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/rule-cert-light.svg">
+  <img alt="Certified" src="assets/rule-cert-light.svg" width="100%">
 </picture>
 
-[Portfolio](https://portfolio-masterpiece.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/aanishnithin07) · [X](https://x.com/aanishnithin) · [aanishnithin07@gmail.com](mailto:aanishnithin07@gmail.com)
+Microsoft Certified: *Fabric Analytics Engineer Associate* (DP-600) and *AI Agent Builder Associate* (AB-620).
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clock-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/clock-light.svg">
+  <img alt="Figure 2, when I commit: a 24-hour dial of public commits by hour of the day in Indian Standard Time, with the silent hours left empty and a hand resting on the peak hour." src="assets/clock-light.svg" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/foot-dark.svg">

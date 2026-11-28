@@ -16,8 +16,16 @@
   "followers": 24,
   "following": 26,
   "education": [
-   "B.Tech Computer Science & Engineering, SRM Institute of Science & Technology (CGPA 9.45)",
-   "BA (Hons) Psychology, IGNOU"
+   {
+    "degree": "B.Tech Computer Science & Engineering",
+    "detail": "Honours in GPU-Accelerated HPC",
+    "institution": "SRM Institute of Science & Technology",
+    "note": "CGPA 9.45"
+   },
+   {
+    "degree": "BA Psychology",
+    "institution": "IGNOU"
+   }
   ],
   "book": {
    "title": "Inside HR: The Unspoken Rules of Recruitment and Career Growth",
@@ -43,13 +51,13 @@
    "archived": false,
    "stars": 1,
    "forks": 0,
-   "pushedAt": "2026-11-28T17:43:03Z",
+   "pushedAt": "2026-11-28T17:43:40Z",
    "createdAt": "2025-11-15T07:13:38Z",
    "language": "JavaScript",
    "languageColor": "#f1e05a",
    "topics": [],
-   "commits": 33,
-   "lastCommit": "Redesign profile as a daily broadsheet"
+   "commits": 34,
+   "lastCommit": "chore: refresh profile (2026-11-28)"
   },
   {
    "name": "DefogDaily",
@@ -2299,8 +2307,8 @@
   ]
  },
  "commitRhythm": {
-  "source": "GitHub commit search, public repos only, author time converted to IST, last 765 of 765 commits",
-  "sampled": 765,
+  "source": "GitHub commit search, public repos only, author time converted to IST, last 766 of 766 commits",
+  "sampled": 766,
   "byHour": [
    34,
    15,
@@ -2325,7 +2333,7 @@
    31,
    25,
    90,
-   93
+   94
   ],
   "byWeekdayMonFirst": [
    139,
@@ -2333,7 +2341,7 @@
    62,
    75,
    144,
-   89,
+   90,
    104
   ]
  },
