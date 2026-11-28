@@ -43,13 +43,13 @@
    "archived": false,
    "stars": 1,
    "forks": 0,
-   "pushedAt": "2026-11-28T06:52:56Z",
+   "pushedAt": "2026-11-28T17:43:03Z",
    "createdAt": "2025-11-15T07:13:38Z",
-   "language": null,
-   "languageColor": null,
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
    "topics": [],
-   "commits": 32,
-   "lastCommit": "Delete ASCII art section from README"
+   "commits": 33,
+   "lastCommit": "Redesign profile as a daily broadsheet"
   },
   {
    "name": "DefogDaily",
@@ -752,32 +752,32 @@
  "languages": [
   {
    "name": "JavaScript",
-   "pct": 38.3,
+   "pct": 38.8,
    "color": "#f1e05a"
   },
   {
    "name": "Python",
-   "pct": 21,
+   "pct": 20.9,
    "color": "#3572A5"
   },
   {
    "name": "TypeScript",
-   "pct": 14.4,
+   "pct": 14.2,
    "color": "#3178c6"
   },
   {
    "name": "HTML",
-   "pct": 11.2,
+   "pct": 11.1,
    "color": "#e34c26"
   },
   {
    "name": "Java",
-   "pct": 5.7,
+   "pct": 5.6,
    "color": "#b07219"
   },
   {
    "name": "CSS",
-   "pct": 5.2,
+   "pct": 5.1,
    "color": "#663399"
   },
   {
@@ -804,8 +804,8 @@
  "contributions": {
   "windowStart": "2025-11-23",
   "windowEnd": "2026-11-28",
-  "total": 2527,
-  "commits": 571,
+  "total": 2528,
+  "commits": 572,
   "pullRequests": 55,
   "issues": 1,
   "reposCreated": 21,
@@ -2294,7 +2294,7 @@
    },
    {
     "date": "2026-11-28",
-    "count": 19
+    "count": 20
    }
   ]
  },
