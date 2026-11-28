@@ -63,8 +63,8 @@ const measure = (s, { font = 'serif', size = 15, track = 0, italic = false } = {
 // A document under construction: a list of SVG fragments plus helpers that draw into it.
 function doc(T) {
   const parts = [];
-  const rule = (y, { color = T.rule, h = 1, x0 = 0, x1 = W } = {}) =>
-    parts.push(`<rect x="${r2(x0)}" y="${r2(y)}" width="${r2(x1 - x0)}" height="${h}" fill="${color}" shape-rendering="crispEdges"/>`);
+  const rule = (y, { color = T.rule, h = 1, x0 = 0, x1 = W, cls } = {}) =>
+    parts.push(`<rect${cls ? ` class="${cls}"` : ''} x="${r2(x0)}" y="${r2(y)}" width="${r2(x1 - x0)}" height="${h}" fill="${color}" shape-rendering="crispEdges"/>`);
   const vrule = (x, y0, y1, color = T.rule) =>
     parts.push(`<rect x="${r2(x)}" y="${r2(y0)}" width="1" height="${r2(y1 - y0)}" fill="${color}" shape-rendering="crispEdges"/>`);
   // Text is start-anchored at a measured x, so end/middle alignment ignores trailing letter-spacing.
@@ -78,8 +78,29 @@ function doc(T) {
     return w;
   };
   const raw = (s) => parts.push(s);
-  return { parts, rule, vrule, text, raw };
+  // A wire-service teletype: a mono line set one glyph at a time, each glyph its own <text> shown at its moment,
+  // with an underscore cursor that walks along, blinks three times and goes. Without CSS the line is simply there.
+  const type = (x, y, s, { size = 11, fill = T.dim, track = 0 } = {}, { start = 0, cps = 30, cursor = true } = {}) => {
+    const chars = [...s], ls = track * size, step = textWidth('M', FILE.mono, size) + ls;
+    chars.forEach((ch, i) => {
+      if (ch === ' ') return;
+      parts.push(`<text class="mono key" style="animation-delay:${r2(start + i / cps)}s" x="${r2(x + i * step)}" y="${r2(y)}" font-size="${size}" fill="${fill}">${esc(ch)}</text>`);
+    });
+    const dur = chars.length / cps;
+    if (cursor) parts.push(`<rect class="cur" opacity="0" x="${r2(x)}" y="${r2(y + 2.5)}" width="${r2(step - ls)}" height="1.5" fill="${fill}" ` +
+      `style="animation:curmove ${r2(dur)}s steps(${chars.length},start) ${r2(start)}s both,curblink .5s linear ${r2(start + dur)}s 3 both;--to:${r2(chars.length * step)}px"/>`);
+    return start + dur;
+  };
+  return { parts, rule, vrule, text, raw, type };
 }
+const MOTION = {
+  key: `.key{animation:key .01s linear both}@keyframes key{from{opacity:0}to{opacity:1}}` +
+    `@keyframes curmove{from{transform:translateX(0)}to{transform:translateX(var(--to))}}` +
+    `@keyframes curblink{0%,49%{opacity:1}50%,100%{opacity:0}}`,
+  draw: `.draw{transform-box:fill-box;transform-origin:left center;animation:draw .7s cubic-bezier(.3,0,.2,1) both}` +
+    `@keyframes draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}`,
+  still: (sel) => `@media (prefers-reduced-motion:reduce){${sel}{animation:none!important}}`,
+};
 function svg(height, label, body, { css = '', faces = ['serif', 'italic', 'mono'] } = {}) {
   return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="${W}" height="${height}" viewBox="0 0 ${W} ${height}" role="img" aria-label="${esc(label)}">` +
     `<style>${fontCss(faces)}${css}</style><g text-rendering="optimizeLegibility">${body}</g></svg>`;
@@ -144,7 +165,14 @@ function masthead(name) {
   // nameplate, sized to the full measure
   const nameSize = r2(Math.max(56, Math.min(132, W / measure(P.name, { size: 1 }))));
   const nameBase = 34 + 26 + 0.67 * nameSize;
-  d.text(0, nameBase, P.name, { size: nameSize });
+  // It prints like a press run: three colour plates slide into register, then the ink plate lands on top.
+  // Light pages print subtractively (cyan, magenta and yellow multiply to black); dark pages are screens,
+  // so red, green and blue add up to white. The plates are opacity 0 by attribute: without CSS, only ink shows.
+  const PLATES = name === 'light'
+    ? { blend: 'multiply', inks: [['#00a3e0', -11, -4], ['#e4007c', 10, 3], ['#ffd400', -3, 7]] }
+    : { blend: 'screen', inks: [['#ff453a', -11, -4], ['#32d74b', 10, 3], ['#0a84ff', -3, 7]] };
+  PLATES.inks.forEach(([color], i) => d.raw(`<text class="serif plate p${i}" x="0" y="${r2(nameBase)}" font-size="${nameSize}" fill="${color}" opacity="0" aria-hidden="true">${esc(P.name)}</text>`));
+  d.text(0, nameBase, P.name, { size: nameSize, cls: 'serif name' });
 
   // deck at left, degrees as marginalia at right
   const deckOpts = { size: 24, italic: true }, stampW = 280, deckMax = W - stampW - 32;
@@ -176,7 +204,7 @@ function masthead(name) {
   let x = 0; const segs = [];
   data.languages.forEach((l) => { const w = Math.max(2, (l.pct / langTotal) * avail); segs.push({ ...l, x, w }); x += w + gap; });
   const scale = W / (x - gap); segs.forEach((s) => { s.x *= scale; s.w *= scale; });
-  segs.forEach((s) => d.raw(`<rect x="${r2(s.x)}" y="${barY}" width="${r2(s.w)}" height="${barH}" fill="${T.ink}"/>`));
+  segs.forEach((s) => d.raw(`<rect class="seg" style="animation-delay:${r2(1.05 + (0.5 * s.x) / W)}s" x="${r2(s.x)}" y="${barY}" width="${r2(s.w)}" height="${barH}" fill="${T.ink}"/>`));
   const segLabelY = barY + barH + 17, small = { font: 'mono', size: 11, fill: T.dim };
   const unlabelled = [];
   segs.forEach((s) => { const lab = `${s.name} ${Math.round(s.pct)}%`; if (measure(lab, small) <= s.w - 6) d.text(s.x, segLabelY, lab, small); else unlabelled.push(s); });
@@ -192,7 +220,14 @@ function masthead(name) {
   const H = y + 12;
 
   const alt = `${P.name} — code and cognition. Issue ${issueNo}, week ${wk.week} of ${wk.year}, ${longDate(genISO)}. ${edu.join(', ')}. Languages by bytes: ${data.languages.slice(0, 4).map((l) => `${l.name} ${Math.round(l.pct)}%`).join(', ')}. ${data.repos.length} public repositories.`;
-  return svg(H, alt, d.parts.join(''));
+  const css =
+    PLATES.inks.map(([, dx, dy], i) => `.p${i}{animation:p${i} 1.25s cubic-bezier(.2,.7,.2,1) both}` +
+      `@keyframes p${i}{0%{opacity:.92;transform:translate(${dx}px,${dy}px)}60%{opacity:.92;transform:translate(0,0)}100%{opacity:0;transform:translate(0,0)}}`).join('') +
+    `.plate{mix-blend-mode:${PLATES.blend}}` +
+    `.name{animation:inkon 1.25s ease-out both}@keyframes inkon{0%,50%{opacity:0}100%{opacity:1}}` +
+    `.seg{transform-box:fill-box;transform-origin:left center;animation:seg .45s cubic-bezier(.2,.7,.2,1) both}@keyframes seg{from{transform:scaleX(0)}to{transform:scaleX(1)}}` +
+    MOTION.still('.plate,.name,.seg');
+  return svg(H, alt, d.parts.join(''), { css });
 }
 
 // ================================================================== Fig. 2 — the dial
@@ -300,7 +335,7 @@ function halftone(name) {
   const mono = { font: 'mono', size: 11, fill: T.dim, track: TRACK };
   const lead = (dateUTC(days[0].date).getUTCDay() + 6) % 7; // Monday-first row of the first day
   const cols = Math.ceil((days.length + lead) / 7);
-  const GUT = 24, RAIL = 12, PRESS = 2.2;                    // weekday initials at left, room for the press at right; sweep seconds
+  const GUT = 24, RAIL = 12, PRESS = 2.2, LAG = 0.7;        // weekday initials at left, room for the press at right; sweep and wait, in seconds
   const pitch = (W - GUT - RAIL) / cols, rMax = pitch * 0.48;
   const radius = (c) => rMax * Math.sqrt(Math.sqrt(c / Math.max(1, peak))); // area ∝ √count
 
@@ -335,14 +370,14 @@ function halftone(name) {
     const x = r2(px(col));
     for (const { row } of list) d.raw(`<circle cx="${x}" cy="${r2(py(row))}" r="0.9" fill="${T.rule}"/>`);
     const inked = list.filter((e) => e.c > 0); if (!inked.length) return;
-    d.raw(`<g style="animation-delay:${r2((PRESS * (px(col) - startX)) / dist)}s">` +
+    d.raw(`<g style="animation-delay:${r2(LAG + (PRESS * (px(col) - startX)) / dist)}s">` +
       inked.map(({ row, c }) => `<circle class="ink" cx="${x}" cy="${r2(py(row))}" r="${r2(radius(c))}" fill="${T.ink}"/>`).join('') + '</g>');
   });
   d.raw(`<rect class="press" x="${r2(restX - 0.75)}" y="${r2(top - 8)}" width="1.5" height="${r2(7 * pitch + 16)}" fill="${T.accent}"/>`);
   const H = Math.ceil(top + 7 * pitch + 24); // air before the text that follows, like the masthead's closing rule
 
   const anim =
-    `.press{animation:press ${PRESS}s linear both}` +
+    `.press{animation:press ${PRESS}s linear ${LAG}s both}` +
     `@keyframes press{from{transform:translateX(-${r2(dist)}px)}to{transform:translateX(0)}}` +
     `.ink{transform-box:fill-box;transform-origin:center;animation:ink .5s cubic-bezier(.2,.8,.3,1.3) both;animation-delay:inherit}` +
     `@keyframes ink{from{transform:scale(0)}to{transform:scale(1)}}` +
@@ -354,19 +389,20 @@ function halftone(name) {
 // ================================================================== section rules and the colophon
 function sectionRule(name, label) {
   const T = THEME[name]; const d = doc(T);
-  d.rule(8);
-  d.text(0, 31, upper(label), { font: 'mono', size: 11, fill: T.dim, track: TRACK });
-  return svg(34, label, d.parts.join(''), { faces: ['mono'] });
+  d.rule(8, { cls: 'draw' });
+  d.type(0, 31, upper(label), { size: 11, fill: T.dim, track: TRACK }, { start: 0.4, cps: 24 });
+  return svg(36, label, d.parts.join(''), { faces: ['mono'], css: MOTION.draw + MOTION.key + MOTION.still('.draw,.key,.cur') });
 }
 function foot(name) {
   const T = THEME[name]; const d = doc(T);
   const mono = { font: 'mono', size: 11, fill: T.dim, track: TRACK };
-  d.rule(8);
+  d.rule(8, { cls: 'draw' });
   const right = upper(`No. ${issueNo}`), rw = measure(right, mono);
   const left = upper(`Published ${longDate(genISO)} · redrawn every morning from public activity · Newsreader & DM Mono`);
-  d.text(0, 31, truncate(left, FILE.mono, 11, W - rw - 40, { letterSpacingEm: TRACK }), mono);
-  d.text(W, 31, right, { ...mono, align: 'end' });
-  return svg(37, `Colophon: published ${longDate(genISO)}, redrawn every morning from public GitHub activity, set in Newsreader and DM Mono; issue ${issueNo}.`, d.parts.join(''), { faces: ['mono'] });
+  const done = d.type(0, 31, truncate(left, FILE.mono, 11, W - rw - 40, { letterSpacingEm: TRACK }), mono, { start: 0.45, cps: 48 });
+  d.raw(`<g class="key" style="animation-delay:${r2(done + 0.2)}s">`); d.text(W, 31, right, { ...mono, align: 'end' }); d.raw('</g>');
+  return svg(39, `Colophon: published ${longDate(genISO)}, redrawn every morning from public GitHub activity, set in Newsreader and DM Mono; issue ${issueNo}.`, d.parts.join(''),
+    { faces: ['mono'], css: MOTION.draw + MOTION.key + MOTION.still('.draw,.key,.cur') });
 }
 
 // ------------------------------------------------------------------ write
