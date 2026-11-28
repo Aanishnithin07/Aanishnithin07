@@ -1,0 +1,53 @@
+name: Build profile
+
+# Regenerates the SVGs in assets/ from public GitHub activity.
+# Runs daily at 06:00 IST (a quiet hour), on manual dispatch, and whenever the generator itself changes.
+# Commits are authored by github-actions[bot], so they do not count as contributions on the graph.
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Fetch public activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/fetch.mjs Aanishnithin07 data/profile.json
+
+      - name: Render SVGs
+        run: node scripts/build.mjs data/profile.json assets
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data assets
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "chore: refresh profile ($(date -u +%Y-%m-%d))"
+          git push

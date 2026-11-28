@@ -1,237 +1,57 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/masthead-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/masthead-light.svg">
+  <img alt="Aanish Nithin A — code and cognition. A masthead with today's date, the two degrees and the languages used, redrawn every morning from public activity." src="assets/masthead-light.svg" width="100%">
+</picture>
 
-<!-- Animated Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=AANISH%20NITHIN%20A&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/clock-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/clock-light.svg">
+  <img alt="Figure 1, when I commit: a 24-hour dial of public commits by hour of the day in Indian Standard Time, with the silent hours left empty and a hand resting on the peak hour." src="assets/clock-light.svg" width="100%">
+</picture>
 
-<!-- Dynamic Typing Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=900&height=120&lines=Hi+I+am+Aanish+%F0%9F%91%8B;Welcome+to+My+Profile+%F0%9F%9A%80" alt="Typing SVG" />
-</p>
+I'm reading for two degrees at once: computer science at SRM Institute of Science and Technology in Chennai, and psychology at IGNOU. Most of what I build sits where they meet — software about hiring, interviews, attention and habits — and I like tools that run in the browser, do one thing, and keep their data to themselves. The figures on this page are measured from my own public activity and redrawn every morning.
 
-<!-- Animated Social Badges -->
-<p align="center">
-  <a href="https://portfolio-masterpiece.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-FF6B6B?style=for-the-badge&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://www.linkedin.com/in/aanish-nithin-a-69b723270" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:aanishnithin07@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rule-work-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/rule-work-light.svg">
+  <img alt="Selected work" src="assets/rule-work-light.svg" width="100%">
+</picture>
 
-<!-- Profile Views Counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Aanishnithin07&label=Profile%20Views&color=00D9FF&style=for-the-badge" alt="Profile Views" />
-</p>
+[gitdna](https://github.com/Aanishnithin07/gitdna) — Your code has a personality; this uses AI to extract it into a collectible developer card. My largest project. [gitdna.xyz](https://www.gitdna.xyz)
 
-</div>
+[DefogDaily](https://github.com/Aanishnithin07/DefogDaily) — A free, in-browser cognitive assessment across eight memory and attention domains, with a 28-day training protocol. [defogdaily.vercel.app](https://defogdaily.vercel.app)
 
-<br/>
+[quintal](https://github.com/Aanishnithin07/quintal) — A daily archive of Indian agricultural commodity prices, in ₹ per quintal. The official feed serves only today's prices; this keeps them. Built on dbt and DuckDB, with an equivalent PySpark path for Microsoft Fabric. [aanishnithin07.github.io/quintal](https://aanishnithin07.github.io/quintal/)
 
-<!-- 3D Contribution Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aanishnithin07&bg_color=0d1117&color=00d9ff&line=00d9ff&point=ffffff&area=true&hide_border=true&custom_title=📊%20Contribution%20Activity" alt="3D Contribution Graph"/>
-</div>
+[FitForge](https://github.com/Aanishnithin07/FitForge) — Scores how well a résumé fits a job description, with the matched and missing skills. Runs entirely in the browser. [hr-fitforge.vercel.app](https://hr-fitforge.vercel.app)
 
-<br/>
+[PresenceAI](https://github.com/Aanishnithin07/PresenceAI) — An interview coach that watches and listens: computer vision for the non-verbal, speech recognition for the rest.
 
-<!-- Dynamic Metrics Cards -->
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Aanishnithin07&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aanishnithin07&layout=compact&langs_count=8&theme=algolia&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF"/>
-</div>
+[EchoSign](https://github.com/Aanishnithin07/EchoSign) — Reads the American Sign Language alphabet from a webcam in real time.
 
-<br/>
+[Synapse-Switch](https://github.com/Aanishnithin07/Synapse-Switch) — A left-brain / right-brain game whose rules switch without warning. [synapse-switch.vercel.app](https://synapse-switch.vercel.app)
 
+Also [rage-auth-ui](https://github.com/Aanishnithin07/rage-auth-ui), a zero-trust login form: secure, because nobody can submit it.
 
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rule-print-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/rule-print-light.svg">
+  <img alt="In print" src="assets/rule-print-light.svg" width="100%">
+</picture>
 
-<br/>
+*Inside HR: The Unspoken Rules of Recruitment and Career Growth* — self-published in 2025; I wrote, illustrated and edited it. [Amazon](https://www.amazon.in/dp/B0FR1WS8SK)
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/year-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/year-light.svg">
+  <img alt="Figure 2, a year as one trace: the last 365 days of contributions drawn as one continuous line on a square-root scale, with the busiest day annotated and a dot on today." src="assets/year-light.svg" width="100%">
+</picture>
 
-<br/>
+[Portfolio](https://portfolio-masterpiece.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/aanishnithin07) · [X](https://x.com/aanishnithin) · [aanishnithin07@gmail.com](mailto:aanishnithin07@gmail.com)
 
-<!-- Animated Skills Cloud -->
-<div align="center">
-  
-### ⚡ Quick Skills Overview
-
-<img src="https://skillicons.dev/icons?i=python,java,js,react,nodejs,express,mongodb,mysql,tensorflow,opencv,git,github,docker,vscode,linux,c,cpp&perline=9" alt="Skills" />
-
-</div>
-
-<br/>
-
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-##  Featured Projects & Architectures
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### 🎯 EquiHire-Analyzer
-**Eliminating Unconscious Bias in Hiring**
-
-[![Repo](https://img.shields.io/badge/Repo-View_Code-black?style=for-the-badge&logo=github)](https://github.com/Aanishnithin07)
-
-**Problem**: Traditional hiring processes are riddled with unconscious bias, leading to unfair candidate evaluation.
-
-**Solution**: AI-powered resume analyzer that objectively scores candidates using NLP and machine learning, removing identifying information to ensure fair assessment.
-
-**Tech**: `Python` `Flask` `React` `NLP` `TensorFlow`
-
-**Impact**: 📊 40% reduction in bias metrics, 85% faster screening
-
-</td>
-<td width="50%">
-
-### 🎥 PresenceAI
-**Real-Time Engagement Intelligence**
-
-[![Repo](https://img.shields.io/badge/Repo-View_Code-black?style=for-the-badge&logo=github)](https://github.com/Aanishnithin07)
-
-**Problem**: Remote meetings lack engagement insights and real-time feedback mechanisms.
-
-**Solution**: Computer vision + speech recognition system analyzing facial expressions, eye contact, and vocal patterns to provide real-time engagement metrics.
-
-**Tech**: `Python` `OpenCV` `WebSockets` `Speech API`
-
-**Impact**: 🎯 92% accuracy in engagement detection
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 💻 CodeGram
-**AI-Powered Developer Companion**
-
-[![Repo](https://img.shields.io/badge/Repo-View_Code-black?style=for-the-badge&logo=github)](https://github.com/Aanishnithin07)
-
-**Problem**: Debugging wastes developer time and breaks flow state.
-
-**Solution**: In-IDE intelligent debugging assistant using AST analysis and AI to provide contextual fixes and explanations in real-time.
-
-**Tech**: `React` `Node.js` `Express` `AI` `AST Parser`
-
-**Impact**: ⚡ 60% faster debugging, enhanced code quality
-
-</td>
-<td width="50%">
-
-### 🐾 PawPilot-Pet-Care
-**Comprehensive AI Pet Management**
-
-[![Repo](https://img.shields.io/badge/Repo-View_Code-black?style=for-the-badge&logo=github)](https://github.com/Aanishnithin07)
-
-**Problem**: Pet care is fragmented across multiple platforms and lacks intelligent automation.
-
-**Solution**: End-to-end AI platform for pet health monitoring, appointment scheduling, and personalized care recommendations.
-
-**Tech**: `Full-Stack JS` `AI/ML` `Product Design`
-
-**Impact**:95% satisfaction rate
-
-</td>
-</tr>
-</table>
-
-### 📚 More Projects
-
-<a href="https://github.com/Aanishnithin07?tab=repositories">
-  <img src="https://img.shields.io/badge/🔗_Explore_All_Repositories-00D9FF?style=for-the-badge" alt="All Repos"/>
-</a>
-
-</div>
-
-<br/>
-
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-
-
-
-
-## GitHub Analytics
-
-<div align="center">
-
-<!-- Detailed Stats Card -->
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Aanishnithin07&theme=2077" alt="Profile Details"/>
-
-<!-- Stats Overview -->
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Aanishnithin07&theme=2077" alt="Repos per Language"/>
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Aanishnithin07&theme=2077" alt="Most Commit Language"/>
-<img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Aanishnithin07&theme=2077&utcOffset=8" alt="Productive Time"/>
-
-<!-- Streak Stats -->
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Aanishnithin07&theme=neon-dark&hide_border=true&border_radius=8&date_format=M%20j%5B%2C%20Y%5D&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=FFFFFF" alt="GitHub Streak"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Aanishnithin07&show_icons=true&theme=algolia&include_all_commits=true&count_private=true&hide_border=true&border_radius=8&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&ring_color=00D9FF" alt="GitHub Stats"/>
-
-</div>
-
-<br/>
-
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 💼 What I'm Working On
-
-```typescript
-const aanish = {
-  currentFocus: ["Advanced NLP Models", "Real-Time AI Systems", "Human-AI Interaction"],
-  learning: ["Deep Reinforcement Learning", "System Design at Scale", "Cognitive Architecture"],
-  building: ["Next-Gen AI Tools", "Developer Experience Platforms", "Behavioral Analytics"],
-  askMeAbout: ["AI/ML", "Full-Stack Development", "Psychology in Tech", "System Design"],
-  funFact: "I use psychology principles to debug not just code, but team dynamics!! 🧠"
-};
-```
-
-<br/>
-
-<!-- Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-## 🤝 Let's Build Something Amazing & Sensationial!!
-
-<div align="center">
-
-**I'm always open to collaborating on innovative projects and ideas!**
-
-Whether you want to discuss AI, full-stack development, the intersection of psychology and technology, or just want to connect—I'd love to hear from you.
-
-<a href="https://portfolio-masterpiece.vercel.app/">
-  <img src="https://img.shields.io/badge/Portfolio-Visit_My_Work-FF6B6B?style=for-the-badge&logoColor=white" alt="Portfolio"/>
-</a>
-<a href="https://www.linkedin.com/in/aanish-nithin-a-69b723270">
-  <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:aanishnithin07@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Drop_a_Message-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-
-### ⭐ If you like what you see, consider starring some repos!!
-
-</div>
-
-
-<!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/foot-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/foot-light.svg">
+  <img alt="Colophon: redrawn every morning from public GitHub activity by the workflow in this repository; set in Newsreader and DM Mono." src="assets/foot-light.svg" width="100%">
+</picture>

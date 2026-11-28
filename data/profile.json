@@ -1,0 +1,2346 @@
+{
+ "generatedAt": "2026-11-28",
+ "profile": {
+  "name": "Aanish Nithin A",
+  "login": "Aanishnithin07",
+  "pronouns": "he/him",
+  "bio": "B.Tech CSE student. Interested in software development, problem solving, and building useful  And feature rich projects",
+  "location": "India",
+  "timezone": "Asia/Kolkata (UTC+05:30)",
+  "website": "https://portfolio-masterpiece.vercel.app/",
+  "twitter": "https://x.com/aanishnithin",
+  "linkedin": "https://www.linkedin.com/in/aanish-nithin-a-69b723370/",
+  "email": "aanishnithin07@gmail.com",
+  "avatar": "https://avatars.githubusercontent.com/u/179997904?u=48b9d12e3878f5a45b73c8d70a5f115b42b86853&v=4",
+  "createdAt": "2024-08-31T05:10:53Z",
+  "followers": 24,
+  "following": 26,
+  "education": [
+   "B.Tech Computer Science & Engineering, SRM Institute of Science & Technology (CGPA 9.45)",
+   "BA (Hons) Psychology, IGNOU"
+  ],
+  "book": {
+   "title": "Inside HR: The Unspoken Rules of Recruitment and Career Growth",
+   "year": 2025,
+   "url": "https://www.amazon.in/dp/B0FR1WS8SK",
+   "note": "self-published; author, illustrator and editor"
+  }
+ },
+ "pinned": [
+  "CodeOgram",
+  "FitForge",
+  "PawPilot-Pet-Care",
+  "Procrastination-Tracker",
+  "Synapse-Switch",
+  "gitdna"
+ ],
+ "repos": [
+  {
+   "name": "Aanishnithin07",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/Aanishnithin07",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-11-28T06:52:56Z",
+   "createdAt": "2025-11-15T07:13:38Z",
+   "language": null,
+   "languageColor": null,
+   "topics": [],
+   "commits": 32,
+   "lastCommit": "Delete ASCII art section from README"
+  },
+  {
+   "name": "DefogDaily",
+   "description": "",
+   "homepage": "https://defogdaily.vercel.app",
+   "url": "https://github.com/Aanishnithin07/DefogDaily",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-11-07T20:23:59Z",
+   "createdAt": "2026-07-09T06:15:58Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 35,
+   "lastCommit": "Correct README.md typo and format",
+   "homepageLive": true
+  },
+  {
+   "name": "quintal",
+   "description": "Open daily archive of Indian agricultural commodity prices (₹ per quintal). The official data.gov.in feed serves only today's prices and keeps no history — this captures and preserves it.",
+   "homepage": "https://aanishnithin07.github.io/quintal/",
+   "url": "https://github.com/Aanishnithin07/quintal",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-09-24T21:00:18Z",
+   "createdAt": "2026-09-20T16:39:15Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [
+    "agmarknet",
+    "agriculture",
+    "data-archive",
+    "data-engineering",
+    "dbt",
+    "delta-lake",
+    "duckdb",
+    "india",
+    "mandi-prices",
+    "open-data"
+   ],
+   "commits": 19,
+   "lastCommit": "data: mandi snapshot 2026-09-25 (3800 rows)",
+   "homepageLive": true
+  },
+  {
+   "name": "VeriFinVerse",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/VeriFinVerse",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-08-18T05:37:31Z",
+   "createdAt": "2026-08-09T16:27:19Z",
+   "language": null,
+   "languageColor": null,
+   "topics": [],
+   "commits": 1,
+   "lastCommit": "Initial VeriFinVerse project structure"
+  },
+  {
+   "name": "gitdna",
+   "description": "Your code has a personality. GitDNA uses AI to extract it. claim your collectible-style developer card with rarity and stats.",
+   "homepage": "https://www.gitdna.xyz",
+   "url": "https://github.com/Aanishnithin07/gitdna",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-07-03T17:47:29Z",
+   "createdAt": "2026-04-12T11:09:23Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 182,
+   "lastCommit": "Update README to remove expired backend status",
+   "homepageLive": true
+  },
+  {
+   "name": "FitForge",
+   "description": "FitForge — A lightweight HR tool to measure role-fit between a job description (JD) and a candidate's resume.  Highlights matched skills, missing keywords, and generates fit scores with exportable reports.  Built with Vite + React, fully client-side, deployable on Vercel.",
+   "homepage": "https://hr-fitforge.vercel.app",
+   "url": "https://github.com/Aanishnithin07/FitForge",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-06-02T04:09:42Z",
+   "createdAt": "2025-09-23T17:46:20Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 25,
+   "lastCommit": "Fix the  author meta tag in index.html",
+   "homepageLive": true
+  },
+  {
+   "name": "Synapse-Switch",
+   "description": "A fast-paced 'left/right brain' game where you must adapt to conflicting rules that 'switch' at any moment.\"",
+   "homepage": "https://synapse-switch.vercel.app",
+   "url": "https://github.com/Aanishnithin07/Synapse-Switch",
+   "archived": false,
+   "stars": 2,
+   "forks": 0,
+   "pushedAt": "2026-06-01T15:15:27Z",
+   "createdAt": "2025-11-09T11:18:26Z",
+   "language": "HTML",
+   "languageColor": "#e34c26",
+   "topics": [],
+   "commits": 32,
+   "lastCommit": "Fix formatting issue in synapse-switch.html",
+   "homepageLive": true
+  },
+  {
+   "name": "equiscore",
+   "description": "Democratizing hackathon judging. EquiScore uses multimodal AI to screen pitch decks, analyze presentation psychology, and generate transparent, unbiased scoring.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/equiscore",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-06-01T14:55:54Z",
+   "createdAt": "2026-04-10T17:54:02Z",
+   "language": "TypeScript",
+   "languageColor": "#3178c6",
+   "topics": [],
+   "commits": 19,
+   "lastCommit": "Fix formatting in request rate expression"
+  },
+  {
+   "name": "AI-Voice-Concierge",
+   "description": "Production-ready scaffold for a real-time voice concierge that answers Exotel calls, performs LLM-driven reasoning, recommends ET products, and executes follow-up actions (SMS/links) with streaming audio in/out.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/AI-Voice-Concierge",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-05-29T14:17:57Z",
+   "createdAt": "2026-04-03T14:59:53Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 15,
+   "lastCommit": "Remove extensive README content"
+  },
+  {
+   "name": "BookMyStay-APP",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/BookMyStay-APP",
+   "archived": true,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-05-13T11:14:36Z",
+   "createdAt": "2026-03-09T02:57:09Z",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "topics": [],
+   "commits": 23,
+   "lastCommit": "Merge pull request #9 from Aanishnithin07/develop"
+  },
+  {
+   "name": "Quantity-Measurement-App",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/Quantity-Measurement-App",
+   "archived": true,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-05-08T10:17:12Z",
+   "createdAt": "2026-04-27T12:01:26Z",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "topics": [],
+   "commits": 18,
+   "lastCommit": "Add new line to .gitignore"
+  },
+  {
+   "name": "CodeOgram",
+   "description": "AI-powered, multi-language online code editor — React + Node/Express with an integrated AI debugger for real-time error detection and fixes.",
+   "homepage": "https://codeogram-aanishnithin07-2516s-projects.vercel.app",
+   "url": "https://github.com/Aanishnithin07/CodeOgram",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-05-01T18:00:24Z",
+   "createdAt": "2025-09-15T17:08:27Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 7,
+   "lastCommit": "Remove logo image from README",
+   "homepageLive": true
+  },
+  {
+   "name": "DBMS-IATRS",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/DBMS-IATRS",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-04-28T10:07:20Z",
+   "createdAt": "2026-02-09T10:34:17Z",
+   "language": "HTML",
+   "languageColor": "#e34c26",
+   "topics": [],
+   "commits": 21,
+   "lastCommit": "feat: add interview feedback, candidate ratings, and status history"
+  },
+  {
+   "name": "Procrastination-Tracker",
+   "description": "A playful web app that helps you log distractions, track wasted time, and turn procrastination into insights. Everything is stored locally in your browser — no accounts, no servers, just fun charts, emojis, and cheeky suggestions to help you refocus.",
+   "homepage": "https://procrasti-track.vercel.app",
+   "url": "https://github.com/Aanishnithin07/Procrastination-Tracker",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-04-19T09:00:17Z",
+   "createdAt": "2025-09-30T06:53:24Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 19,
+   "lastCommit": "Clean up deployment instructions in README",
+   "homepageLive": true
+  },
+  {
+   "name": "EchoSign",
+   "description": "A real-time system that recognizes the American Sign Language (ASL) alphabet (A-Z) from a webcam feed and displays the predicted letter.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/EchoSign",
+   "archived": false,
+   "stars": 2,
+   "forks": 0,
+   "pushedAt": "2026-04-12T05:57:29Z",
+   "createdAt": "2025-11-14T04:25:17Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 22,
+   "lastCommit": "Clarify ASL acronym in README"
+  },
+  {
+   "name": "-Train-Consist-Management-App",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/-Train-Consist-Management-App",
+   "archived": true,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-04-10T18:21:12Z",
+   "createdAt": "2026-03-24T02:47:02Z",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "topics": [],
+   "commits": 39,
+   "lastCommit": "Merge pull request #19 from Aanishnithin07/feature/UC20"
+  },
+  {
+   "name": "PawPilot-Pet-Care",
+   "description": "An AI-assisted pet care platform",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/PawPilot-Pet-Care",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-04-02T05:58:56Z",
+   "createdAt": "2025-09-16T16:36:03Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 17,
+   "lastCommit": "Update README.md"
+  },
+  {
+   "name": "rage-auth-ui",
+   "description": "A Zero-Trust authentication interface. It is secure because literally no one can submit the form. Features vector-physics evasion, procedural audio, and emotional damage.",
+   "homepage": "https://rage-auth-ui.vercel.app",
+   "url": "https://github.com/Aanishnithin07/rage-auth-ui",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-03-02T09:31:09Z",
+   "createdAt": "2025-12-10T16:47:58Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 36,
+   "lastCommit": "Update title in README.md to include exclamation marks",
+   "homepageLive": true
+  },
+  {
+   "name": "palindromechecker-APP",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/palindromechecker-APP",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-02-27T05:09:52Z",
+   "createdAt": "2026-02-27T04:02:29Z",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "topics": [],
+   "commits": 28,
+   "lastCommit": "Merge pull request #14 from Aanishnithin07/feature/UC13"
+  },
+  {
+   "name": "STEP_B1P22",
+   "description": "STEP_B1P22 -ALL PROJECTS AND PRACTICE DRILLS",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/STEP_B1P22",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-02-27T05:06:52Z",
+   "createdAt": "2026-02-13T04:09:28Z",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "topics": [],
+   "commits": 20,
+   "lastCommit": "Add UC13 - Performance Comparison using System.nanoTime()"
+  },
+  {
+   "name": "Amdox-Job-Portal-Group3",
+   "description": "Job Listing Portal for Amdox Internship - Group 3",
+   "homepage": "https://amdox-job-portal-group3.vercel.app",
+   "url": "https://github.com/Aanishnithin07/Amdox-Job-Portal-Group3",
+   "archived": false,
+   "stars": 0,
+   "forks": 1,
+   "pushedAt": "2026-02-13T13:25:00Z",
+   "createdAt": "2025-12-13T16:22:00Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 20,
+   "lastCommit": "feat: Implement Job Portal Frontend (Jobs, Applications, Posting)",
+   "homepageLive": false
+  },
+  {
+   "name": "CVS-AMDOX",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/CVS-AMDOX",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-02-13T13:24:39Z",
+   "createdAt": "2026-02-10T12:58:05Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 3,
+   "lastCommit": "UI/UX Overhaul: Premium design update with animations and polished co…"
+  },
+  {
+   "name": "AirBridge",
+   "description": "A serverless, local-first file transfer tool inspired by AirDrop.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/AirBridge",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2026-02-09T15:28:01Z",
+   "createdAt": "2026-01-15T14:24:37Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 13,
+   "lastCommit": "feat: implement multiple file support, ui polish, and smart discovery"
+  },
+  {
+   "name": "OmniSelect-OCR",
+   "description": "A lightweight, open-source desktop utility that uses local OCR to copy text from any video, image, or application instantly via a global hotkey.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/OmniSelect-OCR",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2026-01-11T05:32:08Z",
+   "createdAt": "2026-01-08T13:15:35Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 8,
+   "lastCommit": "Fix threading issue: Make main.py thread-safe with flag-based trigger…"
+  },
+  {
+   "name": "calendar-view-aanish",
+   "description": "",
+   "homepage": "https://calendar-view-smoky.vercel.app",
+   "url": "https://github.com/Aanishnithin07/calendar-view-aanish",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-12-16T17:12:59Z",
+   "createdAt": "2025-12-12T09:27:13Z",
+   "language": "TypeScript",
+   "languageColor": "#3178c6",
+   "topics": [],
+   "commits": 19,
+   "lastCommit": "Complete UI overhaul: Professional design with improved visibility, p…",
+   "homepageLive": true
+  },
+  {
+   "name": "prepxl_audioworklet",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/prepxl_audioworklet",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-12-14T17:19:35Z",
+   "createdAt": "2025-12-14T16:04:48Z",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "topics": [],
+   "commits": 3,
+   "lastCommit": "Fix: Remove Lombok, update to Java 21, fix WebSocket streaming, add a…"
+  },
+  {
+   "name": "PresenceAI",
+   "description": "An AI-powered interview coach that analyzes verbal and non-verbal communication skills using computer vision and speech recognition to provide real-time feedback.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/PresenceAI",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-12-13T11:20:38Z",
+   "createdAt": "2025-10-03T05:48:03Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 4,
+   "lastCommit": "Add developer credit to README"
+  },
+  {
+   "name": "Schedulyze",
+   "description": "AI-powered personalized study scheduler that optimizes your study sessions, deadlines, and breaks for maximum productivity.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/Schedulyze",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-12-13T11:16:41Z",
+   "createdAt": "2025-09-23T18:01:13Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 5,
+   "lastCommit": "Update README with deployment status"
+  },
+  {
+   "name": "Code-in-Place-by-Stanford-University-2025",
+   "description": "This repository contains my solutions and practice programs from Code in Place 2025, an introductory computer science course by Stanford University.  The code primarily uses Python with Karel the Robot, focusing on core programming concepts",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/Code-in-Place-by-Stanford-University-2025",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-12-09T17:58:28Z",
+   "createdAt": "2025-12-09T16:55:17Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 33,
+   "lastCommit": "Add memory game Python solution"
+  },
+  {
+   "name": "Project-Aura",
+   "description": "A telehealth project focused on remote vitals monitoring using AI and computer vision to infer vital signs without physical contact",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/Project-Aura",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-12-08T18:40:01Z",
+   "createdAt": "2025-11-17T11:42:16Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 21,
+   "lastCommit": "Step 8: Add multi-language support (i18n)"
+  },
+  {
+   "name": "ResumeScore-AI",
+   "description": "A retro-futuristic web app that analyzes resumes using AI & NLP (spaCy + FastAPI) and provides an instant score with detailed feedback on grammar, readability, keywords, and structure. Built with Next.js, TailwindCSS, and Framer Motion for a sleek, neon-glow aesthetic.",
+   "homepage": "https://resume-score-ai-kappa.vercel.app",
+   "url": "https://github.com/Aanishnithin07/ResumeScore-AI",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-11-19T13:43:11Z",
+   "createdAt": "2025-10-05T05:57:13Z",
+   "language": "TypeScript",
+   "languageColor": "#3178c6",
+   "topics": [],
+   "commits": 18,
+   "lastCommit": "Update README.md",
+   "homepageLive": true
+  },
+  {
+   "name": "CircuitFlow",
+   "description": "An interactive web application built for visualizing and analyzing boolean logic expressions. Input expressions in various formats (keywords, symbols, algebraic) and instantly generate truth tables, Karnaugh maps, simplified expressions, logic circuit diagrams, and universal gate implementations. Developed as a COA project.",
+   "homepage": "https://circuit-flow-coaproject.vercel.app",
+   "url": "https://github.com/Aanishnithin07/CircuitFlow",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-11-12T18:09:49Z",
+   "createdAt": "2025-10-20T10:35:18Z",
+   "language": "HTML",
+   "languageColor": "#e34c26",
+   "topics": [],
+   "commits": 5,
+   "lastCommit": "Update README formatting for project submission",
+   "homepageLive": true
+  },
+  {
+   "name": "APP-JAVA",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/APP-JAVA",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-10-23T13:22:06Z",
+   "createdAt": "2025-09-16T08:25:11Z",
+   "language": "Java",
+   "languageColor": "#b07219",
+   "topics": [],
+   "commits": 13,
+   "lastCommit": "Fix PyDatalog syntax and logic in inventory_datalog.py for compatibility"
+  },
+  {
+   "name": "MediVerify",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/MediVerify",
+   "archived": false,
+   "stars": 1,
+   "forks": 0,
+   "pushedAt": "2025-10-09T07:03:23Z",
+   "createdAt": "2025-10-07T12:58:27Z",
+   "language": "Dart",
+   "languageColor": "#00B4AB",
+   "topics": [],
+   "commits": 5,
+   "lastCommit": "Update README with quick Android Studio setup link"
+  },
+  {
+   "name": "ConnectSphere-ONA",
+   "description": "n organizational network analysis (ONA) platform built with Python, FastAPI, and React to visualize and analyze workplace communication patterns.",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/ConnectSphere-ONA",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-10-03T05:44:49Z",
+   "createdAt": "2025-10-03T05:42:37Z",
+   "language": "Python",
+   "languageColor": "#3572A5",
+   "topics": [],
+   "commits": 1,
+   "lastCommit": "Initial commit of ConnectSphere ONA project"
+  },
+  {
+   "name": "EquiHire-Analyzer",
+   "description": "An AI-powered web application built with Python, Flask, and React that analyzes resumes against job descriptions to provide a match score and a report on hiring bias.",
+   "homepage": "https://equi-hire-analyzer.vercel.app",
+   "url": "https://github.com/Aanishnithin07/EquiHire-Analyzer",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-10-01T14:27:36Z",
+   "createdAt": "2025-10-01T06:52:03Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 3,
+   "lastCommit": "Update screenshot in README.md",
+   "homepageLive": false
+  },
+  {
+   "name": "viavoice",
+   "description": "ViaVoice - Professional Speech-to-Text Solution  ViaVoice is a web-based speech recognition application that provides real-time transcription with multi-language support. It offers text editing capabilities, export options, translation features, and text-to-speech functionality in a clean, intuitive interface.",
+   "homepage": "https://viavoice.vercel.app",
+   "url": "https://github.com/Aanishnithin07/viavoice",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-09-15T19:43:15Z",
+   "createdAt": "2025-09-12T05:44:25Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 7,
+   "lastCommit": "Merge branch 'main' of https://github.com/Aanishnithin07/viavoice",
+   "homepageLive": true
+  },
+  {
+   "name": "module5-solution",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/module5-solution",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-07-22T19:13:11Z",
+   "createdAt": "2025-07-22T19:09:45Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 1,
+   "lastCommit": "Module 5 complete"
+  },
+  {
+   "name": "module4-solution",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/module4-solution",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-07-21T10:25:46Z",
+   "createdAt": "2025-07-21T10:23:09Z",
+   "language": "JavaScript",
+   "languageColor": "#f1e05a",
+   "topics": [],
+   "commits": 1,
+   "lastCommit": "Completed Module 4 Assignment"
+  },
+  {
+   "name": "module3-solution",
+   "description": "MODULE 3 ASSIGNMENT",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/module3-solution",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-07-18T12:44:33Z",
+   "createdAt": "2025-07-18T12:42:44Z",
+   "language": "HTML",
+   "languageColor": "#e34c26",
+   "topics": [],
+   "commits": 1,
+   "lastCommit": "Final Module 3 Assignment by Aanish Nithin A"
+  },
+  {
+   "name": "module2-clean-final",
+   "description": "",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/module2-clean-final",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-07-13T14:32:57Z",
+   "createdAt": "2025-07-12T12:08:14Z",
+   "language": "CSS",
+   "languageColor": "#663399",
+   "topics": [],
+   "commits": 5,
+   "lastCommit": "Updated final index.html and style.css for Module 2 submission"
+  },
+  {
+   "name": "module2-solution",
+   "description": "Introduction to css3 - restaurant menu web page demo",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/module2-solution",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-07-12T12:05:07Z",
+   "createdAt": "2025-07-12T11:20:04Z",
+   "language": "CSS",
+   "languageColor": "#663399",
+   "topics": [],
+   "commits": 3,
+   "lastCommit": "Final overwrite to resolve merge conflict"
+  },
+  {
+   "name": "coursera-test",
+   "description": "coursera test repository",
+   "homepage": "",
+   "url": "https://github.com/Aanishnithin07/coursera-test",
+   "archived": false,
+   "stars": 0,
+   "forks": 0,
+   "pushedAt": "2025-07-01T05:51:40Z",
+   "createdAt": "2025-07-01T05:35:45Z",
+   "language": "HTML",
+   "languageColor": "#e34c26",
+   "topics": [],
+   "commits": 2,
+   "lastCommit": "Add files via upload"
+  }
+ ],
+ "languages": [
+  {
+   "name": "JavaScript",
+   "pct": 38.3,
+   "color": "#f1e05a"
+  },
+  {
+   "name": "Python",
+   "pct": 21,
+   "color": "#3572A5"
+  },
+  {
+   "name": "TypeScript",
+   "pct": 14.4,
+   "color": "#3178c6"
+  },
+  {
+   "name": "HTML",
+   "pct": 11.2,
+   "color": "#e34c26"
+  },
+  {
+   "name": "Java",
+   "pct": 5.7,
+   "color": "#b07219"
+  },
+  {
+   "name": "CSS",
+   "pct": 5.2,
+   "color": "#663399"
+  },
+  {
+   "name": "Dart",
+   "pct": 1.4,
+   "color": "#00B4AB"
+  },
+  {
+   "name": "C++",
+   "pct": 0.6,
+   "color": "#f34b7d"
+  },
+  {
+   "name": "Shell",
+   "pct": 0.6,
+   "color": "#89e051"
+  },
+  {
+   "name": "CMake",
+   "pct": 0.5,
+   "color": "#DA3434"
+  }
+ ],
+ "contributions": {
+  "windowStart": "2025-11-23",
+  "windowEnd": "2026-11-28",
+  "total": 2527,
+  "commits": 571,
+  "pullRequests": 55,
+  "issues": 1,
+  "reposCreated": 21,
+  "currentStreak": 1,
+  "longestStreak": 32,
+  "days": [
+   {
+    "date": "2025-11-23",
+    "count": 4
+   },
+   {
+    "date": "2025-11-24",
+    "count": 0
+   },
+   {
+    "date": "2025-11-25",
+    "count": 0
+   },
+   {
+    "date": "2025-11-26",
+    "count": 0
+   },
+   {
+    "date": "2025-11-27",
+    "count": 0
+   },
+   {
+    "date": "2025-11-28",
+    "count": 0
+   },
+   {
+    "date": "2025-11-29",
+    "count": 0
+   },
+   {
+    "date": "2025-11-30",
+    "count": 0
+   },
+   {
+    "date": "2025-12-01",
+    "count": 0
+   },
+   {
+    "date": "2025-12-02",
+    "count": 0
+   },
+   {
+    "date": "2025-12-03",
+    "count": 0
+   },
+   {
+    "date": "2025-12-04",
+    "count": 0
+   },
+   {
+    "date": "2025-12-05",
+    "count": 0
+   },
+   {
+    "date": "2025-12-06",
+    "count": 0
+   },
+   {
+    "date": "2025-12-07",
+    "count": 0
+   },
+   {
+    "date": "2025-12-08",
+    "count": 2
+   },
+   {
+    "date": "2025-12-09",
+    "count": 39
+   },
+   {
+    "date": "2025-12-10",
+    "count": 14
+   },
+   {
+    "date": "2025-12-11",
+    "count": 6
+   },
+   {
+    "date": "2025-12-12",
+    "count": 8
+   },
+   {
+    "date": "2025-12-13",
+    "count": 25
+   },
+   {
+    "date": "2025-12-14",
+    "count": 4
+   },
+   {
+    "date": "2025-12-15",
+    "count": 8
+   },
+   {
+    "date": "2025-12-16",
+    "count": 8
+   },
+   {
+    "date": "2025-12-17",
+    "count": 3
+   },
+   {
+    "date": "2025-12-18",
+    "count": 14
+   },
+   {
+    "date": "2025-12-19",
+    "count": 0
+   },
+   {
+    "date": "2025-12-20",
+    "count": 1
+   },
+   {
+    "date": "2025-12-21",
+    "count": 0
+   },
+   {
+    "date": "2025-12-22",
+    "count": 0
+   },
+   {
+    "date": "2025-12-23",
+    "count": 9
+   },
+   {
+    "date": "2025-12-24",
+    "count": 0
+   },
+   {
+    "date": "2025-12-25",
+    "count": 0
+   },
+   {
+    "date": "2025-12-26",
+    "count": 0
+   },
+   {
+    "date": "2025-12-27",
+    "count": 0
+   },
+   {
+    "date": "2025-12-28",
+    "count": 0
+   },
+   {
+    "date": "2025-12-29",
+    "count": 0
+   },
+   {
+    "date": "2025-12-30",
+    "count": 0
+   },
+   {
+    "date": "2025-12-31",
+    "count": 0
+   },
+   {
+    "date": "2026-01-01",
+    "count": 0
+   },
+   {
+    "date": "2026-01-02",
+    "count": 0
+   },
+   {
+    "date": "2026-01-03",
+    "count": 0
+   },
+   {
+    "date": "2026-01-04",
+    "count": 0
+   },
+   {
+    "date": "2026-01-05",
+    "count": 0
+   },
+   {
+    "date": "2026-01-06",
+    "count": 0
+   },
+   {
+    "date": "2026-01-07",
+    "count": 0
+   },
+   {
+    "date": "2026-01-08",
+    "count": 7
+   },
+   {
+    "date": "2026-01-09",
+    "count": 1
+   },
+   {
+    "date": "2026-01-10",
+    "count": 0
+   },
+   {
+    "date": "2026-01-11",
+    "count": 1
+   },
+   {
+    "date": "2026-01-12",
+    "count": 0
+   },
+   {
+    "date": "2026-01-13",
+    "count": 0
+   },
+   {
+    "date": "2026-01-14",
+    "count": 0
+   },
+   {
+    "date": "2026-01-15",
+    "count": 6
+   },
+   {
+    "date": "2026-01-16",
+    "count": 0
+   },
+   {
+    "date": "2026-01-17",
+    "count": 0
+   },
+   {
+    "date": "2026-01-18",
+    "count": 0
+   },
+   {
+    "date": "2026-01-19",
+    "count": 0
+   },
+   {
+    "date": "2026-01-20",
+    "count": 0
+   },
+   {
+    "date": "2026-01-21",
+    "count": 0
+   },
+   {
+    "date": "2026-01-22",
+    "count": 0
+   },
+   {
+    "date": "2026-01-23",
+    "count": 0
+   },
+   {
+    "date": "2026-01-24",
+    "count": 2
+   },
+   {
+    "date": "2026-01-25",
+    "count": 5
+   },
+   {
+    "date": "2026-01-26",
+    "count": 0
+   },
+   {
+    "date": "2026-01-27",
+    "count": 0
+   },
+   {
+    "date": "2026-01-28",
+    "count": 0
+   },
+   {
+    "date": "2026-01-29",
+    "count": 0
+   },
+   {
+    "date": "2026-01-30",
+    "count": 0
+   },
+   {
+    "date": "2026-01-31",
+    "count": 0
+   },
+   {
+    "date": "2026-02-01",
+    "count": 0
+   },
+   {
+    "date": "2026-02-02",
+    "count": 0
+   },
+   {
+    "date": "2026-02-03",
+    "count": 0
+   },
+   {
+    "date": "2026-02-04",
+    "count": 0
+   },
+   {
+    "date": "2026-02-05",
+    "count": 0
+   },
+   {
+    "date": "2026-02-06",
+    "count": 0
+   },
+   {
+    "date": "2026-02-07",
+    "count": 0
+   },
+   {
+    "date": "2026-02-08",
+    "count": 0
+   },
+   {
+    "date": "2026-02-09",
+    "count": 8
+   },
+   {
+    "date": "2026-02-10",
+    "count": 6
+   },
+   {
+    "date": "2026-02-11",
+    "count": 0
+   },
+   {
+    "date": "2026-02-12",
+    "count": 0
+   },
+   {
+    "date": "2026-02-13",
+    "count": 5
+   },
+   {
+    "date": "2026-02-14",
+    "count": 0
+   },
+   {
+    "date": "2026-02-15",
+    "count": 0
+   },
+   {
+    "date": "2026-02-16",
+    "count": 0
+   },
+   {
+    "date": "2026-02-17",
+    "count": 1
+   },
+   {
+    "date": "2026-02-18",
+    "count": 0
+   },
+   {
+    "date": "2026-02-19",
+    "count": 0
+   },
+   {
+    "date": "2026-02-20",
+    "count": 9
+   },
+   {
+    "date": "2026-02-21",
+    "count": 0
+   },
+   {
+    "date": "2026-02-22",
+    "count": 0
+   },
+   {
+    "date": "2026-02-23",
+    "count": 0
+   },
+   {
+    "date": "2026-02-24",
+    "count": 0
+   },
+   {
+    "date": "2026-02-25",
+    "count": 0
+   },
+   {
+    "date": "2026-02-26",
+    "count": 0
+   },
+   {
+    "date": "2026-02-27",
+    "count": 47
+   },
+   {
+    "date": "2026-02-28",
+    "count": 0
+   },
+   {
+    "date": "2026-03-01",
+    "count": 0
+   },
+   {
+    "date": "2026-03-02",
+    "count": 5
+   },
+   {
+    "date": "2026-03-03",
+    "count": 0
+   },
+   {
+    "date": "2026-03-04",
+    "count": 0
+   },
+   {
+    "date": "2026-03-05",
+    "count": 0
+   },
+   {
+    "date": "2026-03-06",
+    "count": 0
+   },
+   {
+    "date": "2026-03-07",
+    "count": 0
+   },
+   {
+    "date": "2026-03-08",
+    "count": 0
+   },
+   {
+    "date": "2026-03-09",
+    "count": 24
+   },
+   {
+    "date": "2026-03-10",
+    "count": 0
+   },
+   {
+    "date": "2026-03-11",
+    "count": 0
+   },
+   {
+    "date": "2026-03-12",
+    "count": 0
+   },
+   {
+    "date": "2026-03-13",
+    "count": 0
+   },
+   {
+    "date": "2026-03-14",
+    "count": 0
+   },
+   {
+    "date": "2026-03-15",
+    "count": 0
+   },
+   {
+    "date": "2026-03-16",
+    "count": 11
+   },
+   {
+    "date": "2026-03-17",
+    "count": 0
+   },
+   {
+    "date": "2026-03-18",
+    "count": 0
+   },
+   {
+    "date": "2026-03-19",
+    "count": 0
+   },
+   {
+    "date": "2026-03-20",
+    "count": 0
+   },
+   {
+    "date": "2026-03-21",
+    "count": 0
+   },
+   {
+    "date": "2026-03-22",
+    "count": 0
+   },
+   {
+    "date": "2026-03-23",
+    "count": 0
+   },
+   {
+    "date": "2026-03-24",
+    "count": 19
+   },
+   {
+    "date": "2026-03-25",
+    "count": 0
+   },
+   {
+    "date": "2026-03-26",
+    "count": 0
+   },
+   {
+    "date": "2026-03-27",
+    "count": 0
+   },
+   {
+    "date": "2026-03-28",
+    "count": 0
+   },
+   {
+    "date": "2026-03-29",
+    "count": 0
+   },
+   {
+    "date": "2026-03-30",
+    "count": 0
+   },
+   {
+    "date": "2026-03-31",
+    "count": 0
+   },
+   {
+    "date": "2026-04-01",
+    "count": 0
+   },
+   {
+    "date": "2026-04-02",
+    "count": 0
+   },
+   {
+    "date": "2026-04-03",
+    "count": 3
+   },
+   {
+    "date": "2026-04-04",
+    "count": 2
+   },
+   {
+    "date": "2026-04-05",
+    "count": 0
+   },
+   {
+    "date": "2026-04-06",
+    "count": 0
+   },
+   {
+    "date": "2026-04-07",
+    "count": 0
+   },
+   {
+    "date": "2026-04-08",
+    "count": 0
+   },
+   {
+    "date": "2026-04-09",
+    "count": 0
+   },
+   {
+    "date": "2026-04-10",
+    "count": 43
+   },
+   {
+    "date": "2026-04-11",
+    "count": 11
+   },
+   {
+    "date": "2026-04-12",
+    "count": 21
+   },
+   {
+    "date": "2026-04-13",
+    "count": 23
+   },
+   {
+    "date": "2026-04-14",
+    "count": 16
+   },
+   {
+    "date": "2026-04-15",
+    "count": 6
+   },
+   {
+    "date": "2026-04-16",
+    "count": 3
+   },
+   {
+    "date": "2026-04-17",
+    "count": 4
+   },
+   {
+    "date": "2026-04-18",
+    "count": 9
+   },
+   {
+    "date": "2026-04-19",
+    "count": 8
+   },
+   {
+    "date": "2026-04-20",
+    "count": 36
+   },
+   {
+    "date": "2026-04-21",
+    "count": 7
+   },
+   {
+    "date": "2026-04-22",
+    "count": 2
+   },
+   {
+    "date": "2026-04-23",
+    "count": 7
+   },
+   {
+    "date": "2026-04-24",
+    "count": 10
+   },
+   {
+    "date": "2026-04-25",
+    "count": 3
+   },
+   {
+    "date": "2026-04-26",
+    "count": 25
+   },
+   {
+    "date": "2026-04-27",
+    "count": 35
+   },
+   {
+    "date": "2026-04-28",
+    "count": 9
+   },
+   {
+    "date": "2026-04-29",
+    "count": 1
+   },
+   {
+    "date": "2026-04-30",
+    "count": 1
+   },
+   {
+    "date": "2026-05-01",
+    "count": 37
+   },
+   {
+    "date": "2026-05-02",
+    "count": 23
+   },
+   {
+    "date": "2026-05-03",
+    "count": 6
+   },
+   {
+    "date": "2026-05-04",
+    "count": 9
+   },
+   {
+    "date": "2026-05-05",
+    "count": 8
+   },
+   {
+    "date": "2026-05-06",
+    "count": 4
+   },
+   {
+    "date": "2026-05-07",
+    "count": 1
+   },
+   {
+    "date": "2026-05-08",
+    "count": 18
+   },
+   {
+    "date": "2026-05-09",
+    "count": 6
+   },
+   {
+    "date": "2026-05-10",
+    "count": 5
+   },
+   {
+    "date": "2026-05-11",
+    "count": 3
+   },
+   {
+    "date": "2026-05-12",
+    "count": 0
+   },
+   {
+    "date": "2026-05-13",
+    "count": 4
+   },
+   {
+    "date": "2026-05-14",
+    "count": 7
+   },
+   {
+    "date": "2026-05-15",
+    "count": 3
+   },
+   {
+    "date": "2026-05-16",
+    "count": 4
+   },
+   {
+    "date": "2026-05-17",
+    "count": 3
+   },
+   {
+    "date": "2026-05-18",
+    "count": 3
+   },
+   {
+    "date": "2026-05-19",
+    "count": 4
+   },
+   {
+    "date": "2026-05-20",
+    "count": 21
+   },
+   {
+    "date": "2026-05-21",
+    "count": 2
+   },
+   {
+    "date": "2026-05-22",
+    "count": 0
+   },
+   {
+    "date": "2026-05-23",
+    "count": 3
+   },
+   {
+    "date": "2026-05-24",
+    "count": 3
+   },
+   {
+    "date": "2026-05-25",
+    "count": 3
+   },
+   {
+    "date": "2026-05-26",
+    "count": 5
+   },
+   {
+    "date": "2026-05-27",
+    "count": 0
+   },
+   {
+    "date": "2026-05-28",
+    "count": 3
+   },
+   {
+    "date": "2026-05-29",
+    "count": 4
+   },
+   {
+    "date": "2026-05-30",
+    "count": 8
+   },
+   {
+    "date": "2026-05-31",
+    "count": 5
+   },
+   {
+    "date": "2026-06-01",
+    "count": 6
+   },
+   {
+    "date": "2026-06-02",
+    "count": 6
+   },
+   {
+    "date": "2026-06-03",
+    "count": 2
+   },
+   {
+    "date": "2026-06-04",
+    "count": 2
+   },
+   {
+    "date": "2026-06-05",
+    "count": 0
+   },
+   {
+    "date": "2026-06-06",
+    "count": 0
+   },
+   {
+    "date": "2026-06-07",
+    "count": 0
+   },
+   {
+    "date": "2026-06-08",
+    "count": 2
+   },
+   {
+    "date": "2026-06-09",
+    "count": 0
+   },
+   {
+    "date": "2026-06-10",
+    "count": 1
+   },
+   {
+    "date": "2026-06-11",
+    "count": 0
+   },
+   {
+    "date": "2026-06-12",
+    "count": 0
+   },
+   {
+    "date": "2026-06-13",
+    "count": 0
+   },
+   {
+    "date": "2026-06-14",
+    "count": 0
+   },
+   {
+    "date": "2026-06-15",
+    "count": 4
+   },
+   {
+    "date": "2026-06-16",
+    "count": 3
+   },
+   {
+    "date": "2026-06-17",
+    "count": 6
+   },
+   {
+    "date": "2026-06-18",
+    "count": 1
+   },
+   {
+    "date": "2026-06-19",
+    "count": 1
+   },
+   {
+    "date": "2026-06-20",
+    "count": 1
+   },
+   {
+    "date": "2026-06-21",
+    "count": 0
+   },
+   {
+    "date": "2026-06-22",
+    "count": 3
+   },
+   {
+    "date": "2026-06-23",
+    "count": 1
+   },
+   {
+    "date": "2026-06-24",
+    "count": 3
+   },
+   {
+    "date": "2026-06-25",
+    "count": 0
+   },
+   {
+    "date": "2026-06-26",
+    "count": 0
+   },
+   {
+    "date": "2026-06-27",
+    "count": 0
+   },
+   {
+    "date": "2026-06-28",
+    "count": 0
+   },
+   {
+    "date": "2026-06-29",
+    "count": 4
+   },
+   {
+    "date": "2026-06-30",
+    "count": 0
+   },
+   {
+    "date": "2026-07-01",
+    "count": 5
+   },
+   {
+    "date": "2026-07-02",
+    "count": 0
+   },
+   {
+    "date": "2026-07-03",
+    "count": 7
+   },
+   {
+    "date": "2026-07-04",
+    "count": 0
+   },
+   {
+    "date": "2026-07-05",
+    "count": 3
+   },
+   {
+    "date": "2026-07-06",
+    "count": 0
+   },
+   {
+    "date": "2026-07-07",
+    "count": 8
+   },
+   {
+    "date": "2026-07-08",
+    "count": 0
+   },
+   {
+    "date": "2026-07-09",
+    "count": 4
+   },
+   {
+    "date": "2026-07-10",
+    "count": 2
+   },
+   {
+    "date": "2026-07-11",
+    "count": 0
+   },
+   {
+    "date": "2026-07-12",
+    "count": 4
+   },
+   {
+    "date": "2026-07-13",
+    "count": 4
+   },
+   {
+    "date": "2026-07-14",
+    "count": 0
+   },
+   {
+    "date": "2026-07-15",
+    "count": 4
+   },
+   {
+    "date": "2026-07-16",
+    "count": 7
+   },
+   {
+    "date": "2026-07-17",
+    "count": 0
+   },
+   {
+    "date": "2026-07-18",
+    "count": 2
+   },
+   {
+    "date": "2026-07-19",
+    "count": 0
+   },
+   {
+    "date": "2026-07-20",
+    "count": 0
+   },
+   {
+    "date": "2026-07-21",
+    "count": 2
+   },
+   {
+    "date": "2026-07-22",
+    "count": 0
+   },
+   {
+    "date": "2026-07-23",
+    "count": 0
+   },
+   {
+    "date": "2026-07-24",
+    "count": 0
+   },
+   {
+    "date": "2026-07-25",
+    "count": 0
+   },
+   {
+    "date": "2026-07-26",
+    "count": 0
+   },
+   {
+    "date": "2026-07-27",
+    "count": 0
+   },
+   {
+    "date": "2026-07-28",
+    "count": 0
+   },
+   {
+    "date": "2026-07-29",
+    "count": 0
+   },
+   {
+    "date": "2026-07-30",
+    "count": 9
+   },
+   {
+    "date": "2026-07-31",
+    "count": 3
+   },
+   {
+    "date": "2026-08-01",
+    "count": 0
+   },
+   {
+    "date": "2026-08-02",
+    "count": 1
+   },
+   {
+    "date": "2026-08-03",
+    "count": 0
+   },
+   {
+    "date": "2026-08-04",
+    "count": 1
+   },
+   {
+    "date": "2026-08-05",
+    "count": 0
+   },
+   {
+    "date": "2026-08-06",
+    "count": 3
+   },
+   {
+    "date": "2026-08-07",
+    "count": 3
+   },
+   {
+    "date": "2026-08-08",
+    "count": 2
+   },
+   {
+    "date": "2026-08-09",
+    "count": 1
+   },
+   {
+    "date": "2026-08-10",
+    "count": 0
+   },
+   {
+    "date": "2026-08-11",
+    "count": 0
+   },
+   {
+    "date": "2026-08-12",
+    "count": 0
+   },
+   {
+    "date": "2026-08-13",
+    "count": 5
+   },
+   {
+    "date": "2026-08-14",
+    "count": 0
+   },
+   {
+    "date": "2026-08-15",
+    "count": 0
+   },
+   {
+    "date": "2026-08-16",
+    "count": 2
+   },
+   {
+    "date": "2026-08-17",
+    "count": 0
+   },
+   {
+    "date": "2026-08-18",
+    "count": 0
+   },
+   {
+    "date": "2026-08-19",
+    "count": 0
+   },
+   {
+    "date": "2026-08-20",
+    "count": 0
+   },
+   {
+    "date": "2026-08-21",
+    "count": 0
+   },
+   {
+    "date": "2026-08-22",
+    "count": 0
+   },
+   {
+    "date": "2026-08-23",
+    "count": 0
+   },
+   {
+    "date": "2026-08-24",
+    "count": 1
+   },
+   {
+    "date": "2026-08-25",
+    "count": 0
+   },
+   {
+    "date": "2026-08-26",
+    "count": 8
+   },
+   {
+    "date": "2026-08-27",
+    "count": 0
+   },
+   {
+    "date": "2026-08-28",
+    "count": 0
+   },
+   {
+    "date": "2026-08-29",
+    "count": 6
+   },
+   {
+    "date": "2026-08-30",
+    "count": 0
+   },
+   {
+    "date": "2026-08-31",
+    "count": 2
+   },
+   {
+    "date": "2026-09-01",
+    "count": 4
+   },
+   {
+    "date": "2026-09-02",
+    "count": 0
+   },
+   {
+    "date": "2026-09-03",
+    "count": 0
+   },
+   {
+    "date": "2026-09-04",
+    "count": 0
+   },
+   {
+    "date": "2026-09-05",
+    "count": 0
+   },
+   {
+    "date": "2026-09-06",
+    "count": 11
+   },
+   {
+    "date": "2026-09-07",
+    "count": 12
+   },
+   {
+    "date": "2026-09-08",
+    "count": 4
+   },
+   {
+    "date": "2026-09-09",
+    "count": 4
+   },
+   {
+    "date": "2026-09-10",
+    "count": 5
+   },
+   {
+    "date": "2026-09-11",
+    "count": 0
+   },
+   {
+    "date": "2026-09-12",
+    "count": 2
+   },
+   {
+    "date": "2026-09-13",
+    "count": 9
+   },
+   {
+    "date": "2026-09-14",
+    "count": 38
+   },
+   {
+    "date": "2026-09-15",
+    "count": 40
+   },
+   {
+    "date": "2026-09-16",
+    "count": 8
+   },
+   {
+    "date": "2026-09-17",
+    "count": 14
+   },
+   {
+    "date": "2026-09-18",
+    "count": 0
+   },
+   {
+    "date": "2026-09-19",
+    "count": 1
+   },
+   {
+    "date": "2026-09-20",
+    "count": 1
+   },
+   {
+    "date": "2026-09-21",
+    "count": 7
+   },
+   {
+    "date": "2026-09-22",
+    "count": 6
+   },
+   {
+    "date": "2026-09-23",
+    "count": 17
+   },
+   {
+    "date": "2026-09-24",
+    "count": 11
+   },
+   {
+    "date": "2026-09-25",
+    "count": 2
+   },
+   {
+    "date": "2026-09-26",
+    "count": 0
+   },
+   {
+    "date": "2026-09-27",
+    "count": 0
+   },
+   {
+    "date": "2026-09-28",
+    "count": 0
+   },
+   {
+    "date": "2026-09-29",
+    "count": 0
+   },
+   {
+    "date": "2026-09-30",
+    "count": 1
+   },
+   {
+    "date": "2026-10-01",
+    "count": 4
+   },
+   {
+    "date": "2026-10-02",
+    "count": 59
+   },
+   {
+    "date": "2026-10-03",
+    "count": 9
+   },
+   {
+    "date": "2026-10-04",
+    "count": 79
+   },
+   {
+    "date": "2026-10-05",
+    "count": 58
+   },
+   {
+    "date": "2026-10-06",
+    "count": 7
+   },
+   {
+    "date": "2026-10-07",
+    "count": 58
+   },
+   {
+    "date": "2026-10-08",
+    "count": 16
+   },
+   {
+    "date": "2026-10-09",
+    "count": 41
+   },
+   {
+    "date": "2026-10-10",
+    "count": 16
+   },
+   {
+    "date": "2026-10-11",
+    "count": 15
+   },
+   {
+    "date": "2026-10-12",
+    "count": 3
+   },
+   {
+    "date": "2026-10-13",
+    "count": 2
+   },
+   {
+    "date": "2026-10-14",
+    "count": 20
+   },
+   {
+    "date": "2026-10-15",
+    "count": 28
+   },
+   {
+    "date": "2026-10-16",
+    "count": 104
+   },
+   {
+    "date": "2026-10-17",
+    "count": 68
+   },
+   {
+    "date": "2026-10-18",
+    "count": 0
+   },
+   {
+    "date": "2026-10-19",
+    "count": 2
+   },
+   {
+    "date": "2026-10-20",
+    "count": 6
+   },
+   {
+    "date": "2026-10-21",
+    "count": 0
+   },
+   {
+    "date": "2026-10-22",
+    "count": 3
+   },
+   {
+    "date": "2026-10-23",
+    "count": 17
+   },
+   {
+    "date": "2026-10-24",
+    "count": 0
+   },
+   {
+    "date": "2026-10-25",
+    "count": 1
+   },
+   {
+    "date": "2026-10-26",
+    "count": 0
+   },
+   {
+    "date": "2026-10-27",
+    "count": 0
+   },
+   {
+    "date": "2026-10-28",
+    "count": 7
+   },
+   {
+    "date": "2026-10-29",
+    "count": 15
+   },
+   {
+    "date": "2026-10-30",
+    "count": 76
+   },
+   {
+    "date": "2026-10-31",
+    "count": 30
+   },
+   {
+    "date": "2026-11-01",
+    "count": 0
+   },
+   {
+    "date": "2026-11-02",
+    "count": 7
+   },
+   {
+    "date": "2026-11-03",
+    "count": 10
+   },
+   {
+    "date": "2026-11-04",
+    "count": 14
+   },
+   {
+    "date": "2026-11-05",
+    "count": 64
+   },
+   {
+    "date": "2026-11-06",
+    "count": 69
+   },
+   {
+    "date": "2026-11-07",
+    "count": 34
+   },
+   {
+    "date": "2026-11-08",
+    "count": 4
+   },
+   {
+    "date": "2026-11-09",
+    "count": 25
+   },
+   {
+    "date": "2026-11-10",
+    "count": 31
+   },
+   {
+    "date": "2026-11-11",
+    "count": 0
+   },
+   {
+    "date": "2026-11-12",
+    "count": 0
+   },
+   {
+    "date": "2026-11-13",
+    "count": 58
+   },
+   {
+    "date": "2026-11-14",
+    "count": 1
+   },
+   {
+    "date": "2026-11-15",
+    "count": 62
+   },
+   {
+    "date": "2026-11-16",
+    "count": 27
+   },
+   {
+    "date": "2026-11-17",
+    "count": 5
+   },
+   {
+    "date": "2026-11-18",
+    "count": 6
+   },
+   {
+    "date": "2026-11-19",
+    "count": 9
+   },
+   {
+    "date": "2026-11-20",
+    "count": 4
+   },
+   {
+    "date": "2026-11-21",
+    "count": 74
+   },
+   {
+    "date": "2026-11-22",
+    "count": 124
+   },
+   {
+    "date": "2026-11-23",
+    "count": 2
+   },
+   {
+    "date": "2026-11-24",
+    "count": 0
+   },
+   {
+    "date": "2026-11-25",
+    "count": 0
+   },
+   {
+    "date": "2026-11-26",
+    "count": 0
+   },
+   {
+    "date": "2026-11-27",
+    "count": 0
+   },
+   {
+    "date": "2026-11-28",
+    "count": 19
+   }
+  ]
+ },
+ "commitRhythm": {
+  "source": "GitHub commit search, public repos only, author time converted to IST, last 765 of 765 commits",
+  "sampled": 765,
+  "byHour": [
+   34,
+   15,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   15,
+   61,
+   55,
+   38,
+   53,
+   13,
+   13,
+   19,
+   32,
+   67,
+   57,
+   52,
+   31,
+   25,
+   90,
+   93
+  ],
+  "byWeekdayMonFirst": [
+   139,
+   152,
+   62,
+   75,
+   144,
+   89,
+   104
+  ]
+ },
+ "contributedTo": [
+  "Arjjun-S/ETVoiceConcierge",
+  "balatharunr/rocket-rush",
+  "Cosmos-0118/SRM-Autoconnect",
+  "sandhiya-s86/CacheCore"
+ ]
+}
